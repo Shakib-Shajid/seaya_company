@@ -98,7 +98,7 @@ const Funds = () => {
                 </div>
 
             </div>
-                <hr className='mt-20 md:mt-32 lg:mt-40 border-gray-400'/>
+                <hr className='mt-20 md:mt-32 lg:mt-40 border-gray-400 w-11/12 mx-auto md:w-full'/>
         </div>
     );
 };

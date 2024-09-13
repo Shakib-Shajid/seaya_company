@@ -70,8 +70,9 @@ const Portfolio = () => {
 
 
             </div>
-
-            <p className="my-10 underline text-lg ml-8 md:ml-0 md:w-10/12 lg:w-3/4 mx-auto"><Link href="/">View all companies</Link></p>
+            <div className="my-10  underline text-lg ml-7 md:ml-0 w-full ">
+                <p className="md:w-10/12 mx-auto lg:w-3/4"><Link href="/">View all companies</Link></p>
+            </div>
 
         </div>
     );
