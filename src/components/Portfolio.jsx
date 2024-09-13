@@ -8,15 +8,24 @@ const Portfolio = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:w-3/4 mx-auto my-10 ">
                 {/* ............................................................................ */}
                 {/* 1st card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
-                    <figure>
+
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                    {/* Container for the image */}
+                    <div className="relative w-full h-full">
+                        <Image
+                            src="/group_4.webp"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 " />
                         <Image
                             src="/group_1.jpg"
                             alt="Shoes"
                             width="300"
                             height="300"
-                            className="rounded-xl w-full" />
-                    </figure>
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 opacity-0 group-hover:opacity-100" />
+                    </div>
+
                     <hr className="my-5 border-2" />
                     <div className="p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Glovo</h2>
@@ -27,16 +36,26 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+
                 {/* 2nd card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
-                    <figure>
+
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                    {/* Container for the image */}
+                    <div className="relative w-full h-72">
+                        <Image
+                            src="/group_5.webp"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300" />
                         <Image
                             src="/group_2.jpg"
                             alt="Shoes"
                             width="300"
                             height="300"
-                            className="rounded-xl w-full" />
-                    </figure>
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 opacity-0 group-hover:opacity-100" />
+                    </div>
+
                     <hr className="my-5 border-2" />
                     <div className="p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Wallbox</h2>
@@ -47,16 +66,27 @@ const Portfolio = () => {
                     </div>
                 </div>
 
+
                 {/* 3rd card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
-                    <figure>
+
+
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                    {/* Container for the image */}
+                    <div className="relative w-full h-72">
+                        <Image
+                            src="/group_6.webp"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300" />
                         <Image
                             src="/group_3.jpg"
                             alt="Shoes"
                             width="300"
                             height="300"
-                            className="rounded-xl w-full" />
-                    </figure>
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 opacity-0 group-hover:opacity-100" />
+                    </div>
+
                     <hr className="my-5 border-2" />
                     <div className="p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Cabify</h2>
@@ -66,7 +96,12 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* ............................................................................ */}
+
+
+
+
 
 
             </div>
