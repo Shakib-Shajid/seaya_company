@@ -66,7 +66,6 @@
 
 // export default Navbar;
 
-"use client"
 
 "use client"
 import Link from 'next/link';
@@ -117,14 +116,14 @@ const Navbar = () => {
 
                 </button>
                 <dialog id="my_modal_3" className="modal">
-                    <div className="bg-gray-200 w-full h-full p-10 md:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
+                    <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
                         <form method="dialog">
                             {/* Closing button inside the modal */}
-                            <button className="btn btn-sm btn-circle btn-ghost absolute right-8 top-4 text-base">✕</button>
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-8 top-4 text-base">✕</button>
                         </form>
                         {/* <h3 className="font-bold text-lg">Hello!</h3>
                         <p className="py-4">Press ESC key or click on ✕ button to close</p> */}
-                        <div className='flex md:flex-row flex-col md:gap-56 lg:gap-96'>
+                        <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
                             <div>
                                 <ul className='space-y-3 w-72'>
                                     <li><Link href="/">Home</Link></li>
@@ -139,7 +138,7 @@ const Navbar = () => {
 
                             </div>
                             <div className='mt-12 md:mt-32 leading-loose'>
-                                <ul className='space-y-3'>
+                                <ul className='space-y-3 w-full'>
                                     <li className='font-bold'><Link href="/">in</Link></li>
                                     <li className='text-2xl'><Link href="/">News</Link></li>
                                     <li className='text-2xl'><Link href="/">Talent</Link></li>
