@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
     return (
@@ -21,7 +22,7 @@ const Portfolio = () => {
                         <h2 className="card-title text-xl font-bold">Glovo</h2>
                         <p className="my-2">Glovo is an on-demand delivery marketplace present in Europe and Latam that allows users to get anything they need in a short period of time.</p>
                         <div className="flex items-center mt-auto">
-                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                            <button>-- Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -41,7 +42,7 @@ const Portfolio = () => {
                         <h2 className="card-title text-xl font-bold">Wallbox</h2>
                         <p className="my-2">Wallbox is a leading designer, manufacturer, and distributor of innovative intelligent charging solutions for plug-in electric and hybrid cars.</p>
                         <div className="flex items-center mt-auto">
-                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                            <button>-- Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +62,7 @@ const Portfolio = () => {
                         <h2 className="card-title text-xl font-bold">Cabify</h2>
                         <p className="my-2">Transforming mobility in Iberia and Latam. Cabify is the leading ride-hailing and mobility platform in Iberia and Latam.</p>
                         <div className="flex items-center mt-auto">
-                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                            <button>-- Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -69,6 +70,8 @@ const Portfolio = () => {
 
 
             </div>
+
+            <p className="my-10 underline text-lg ml-8 md:ml-0 md:w-10/12 lg:w-3/4 mx-auto"><Link href="/">View all companies</Link></p>
 
         </div>
     );
