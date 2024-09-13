@@ -1,0 +1,77 @@
+import Image from "next/image";
+
+const Portfolio = () => {
+    return (
+        <div className='w-full md:w-11/12 mx-auto'>
+            <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Portfolio</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:w-3/4 mx-auto my-10 ">
+                {/* ............................................................................ */}
+                {/* 1st card */}
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
+                    <figure>
+                        <Image
+                            src="/group_1.jpg"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="rounded-xl w-full" />
+                    </figure>
+                    <hr className="my-5 border-2" />
+                    <div className="p-4 flex flex-col">
+                        <h2 className="card-title text-xl font-bold">Glovo</h2>
+                        <p className="my-2">Glovo is an on-demand delivery marketplace present in Europe and Latam that allows users to get anything they need in a short period of time.</p>
+                        <div className="flex items-center mt-auto">
+                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 2nd card */}
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
+                    <figure>
+                        <Image
+                            src="/group_2.jpg"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="rounded-xl w-full" />
+                    </figure>
+                    <hr className="my-5 border-2" />
+                    <div className="p-4 flex flex-col">
+                        <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                        <p className="my-2">Wallbox is a leading designer, manufacturer, and distributor of innovative intelligent charging solutions for plug-in electric and hybrid cars.</p>
+                        <div className="flex items-center mt-auto">
+                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 3rd card */}
+                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0">
+                    <figure>
+                        <Image
+                            src="/group_3.jpg"
+                            alt="Shoes"
+                            width="300"
+                            height="300"
+                            className="rounded-xl w-full" />
+                    </figure>
+                    <hr className="my-5 border-2" />
+                    <div className="p-4 flex flex-col">
+                        <h2 className="card-title text-xl font-bold">Cabify</h2>
+                        <p className="my-2">Transforming mobility in Iberia and Latam. Cabify is the leading ride-hailing and mobility platform in Iberia and Latam.</p>
+                        <div className="flex items-center mt-auto">
+                            <button className="ml-2 text-blue-500 ">--Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                {/* ............................................................................ */}
+
+
+            </div>
+
+        </div>
+    );
+};
+
+export default Portfolio;
