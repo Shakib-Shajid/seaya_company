@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.swiper-pagination-bullet {
+  margin: 0 5px; /* Increase horizontal margin between dots */
+}
