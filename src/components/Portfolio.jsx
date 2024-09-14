@@ -11,13 +11,13 @@ const Portfolio = () => {
 
                 <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
                     {/* Container for the image */}
-                    <div className="relative w-full h-full">
+                    <div className="relative w-full h-72">
                         <Image
                             src="/group_4.webp"
                             alt="Shoes"
                             width="300"
                             height="300"
-                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 " />
+                            className="absolute inset-0 object-cover w-full h-full transition-transform duration-300" />
                         <Image
                             src="/group_1.jpg"
                             alt="Shoes"
@@ -98,8 +98,6 @@ const Portfolio = () => {
                 </div>
 
                 {/* ............................................................................ */}
-
-
 
 
 
