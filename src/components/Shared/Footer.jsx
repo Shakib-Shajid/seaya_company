@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" bg-[#363A3A] text-neutral-content p-10 ">
-            <div className='footer text-xl grid grid-cols-1 lg:grid-cols-3 gap-2 w-10/12 mx-auto my-20'>
+        <footer className=" bg-[#363A3A] text-neutral-content lg:p-10 ">
+            <div className='footer text-xl grid grid-cols-1 lg:grid-cols-3 gap-2 lg:w-10/12 mx-auto my-20'>
                 <span className=''>
                     <h6 className="text-3xl text-white my-5">Navigate</h6>
                     <a className="link link-hover">Seaya Ventures</a>
@@ -13,7 +13,7 @@ const Footer = () => {
                     <a className="link link-hover">Team</a>
                 </span>
 
-                <span className='mt-20 -ml-20'>
+                <span className='mt-20 lg:-ml-20'>
                     <a className="link link-hover">ESG/Impact</a>
                     <a className="link link-hover">News</a>
                     <a className="link link-hover">Talent</a>
@@ -22,9 +22,9 @@ const Footer = () => {
                     <a className="link link-hover">Whistleblower Channel</a>
                 </span>
 
-                <span className='w-[650px] relative  mx-auto -ml-32'>
+                <span className='w-full lg:w-[650px] relative  mx-auto lg:-ml-32'>
                     <label htmlFor="" className='text-3xl'>Join our email</label>
-                    <input type="email" name="" className='w-96 form-control p-2 rounded-xl' placeholder='Enter your email address' />
+                    <input type="email" name="" className='w-full md:w-96 form-control p-2 rounded-xl' placeholder='Enter your email address' />
                     <div className=' text-lg ml-4'>
                         <div className='flex justify-center items-center gap-3 mt-4'>
                             <input type="checkbox" className="bg-white checkbox" />
@@ -45,12 +45,12 @@ const Footer = () => {
 
             </div>
 
-            <div className="navbar border-t-2 p-4">
+            <div className=" lg:navbar border-t-2 p-4 ">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">© 2024 Seaya · Designed by WSC</a>
+                    <a className="btn btn-ghost text-sm lg:text-xl">© 2024 Seaya · Designed by WSC</a>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 text-lg">
+                    <ul className="menu menu-horizontal px-1 text-lg grid md:flex grid-cols-1">
                         <li><a>Legal Notice</a></li>
                         <li><a>Privacy policy</a></li>
                         <li><a>Cookie policy</a></li>
