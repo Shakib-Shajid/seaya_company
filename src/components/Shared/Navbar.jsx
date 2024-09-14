@@ -38,7 +38,8 @@ const Navbar = () => {
                         className="h-10 w-10"
                         fill="none"
                         viewBox="0 0 24 24"
-                        stroke={isScrolled ? 'black' : 'white'}>
+                        // stroke={isScrolled ? 'black' : 'white'}>
+                        stroke="black">
                         <path
                             strokeLinecap="round"
                             strokeLinejoin="round"

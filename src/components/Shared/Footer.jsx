@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" bg-[#363A3A] text-neutral-content md:p-10 ">
+        <footer className=" bg-[#363A3A] text-neutral-content md:p-14 ">
             <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto my-20'>
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 <nav className='w-full lg:w-[650px] relative  mx-auto lg:-ml-32 grid grid-cols-1 my-5'>
                     <label htmlFor="" className='text-3xl mx-auto md:mx-0'>Join our newsletter</label>
-                    <input type="email" name="" className='w-full form-control p-2' placeholder='Enter your email address' />
+                    <input type="email" name="" className='w-[94%] mx-auto md:w-full form-control p-2' placeholder='Enter your email address' />
                     
                     <div className='text-lg lg:ml-4'>
                         <div className='flex justify-start gap-3 mt-4 '>
