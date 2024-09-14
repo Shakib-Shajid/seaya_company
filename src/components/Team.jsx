@@ -54,33 +54,108 @@ const Team = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <Image src="/group_1.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_2.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_3.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_1.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_2.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_3.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Image src="/group_1.jpg" width="300" height="300" alt="" className='w-full h-80' />
+                        <div className="relative group w-full h-80">
+                            <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+
+                            {/* Overlay with name and position, hidden by default */}
+                            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <p className="text-white text-xl font-bold">John Doe</p>
+                                <p className="text-white text-md">Software Engineer</p>
+                            </div>
+                        </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Image src="/group_2.jpg" width="300" height="300" alt="" className='w-full h-80' />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Image src="/group_3.jpg" width="300" height="300" alt="" className='w-full h-80' />
-                    </SwiperSlide>
-                    
+
+
                 </Swiper>
                 <div className="custom-pagination mt-[30px] flex justify-center pb-10"></div>
 
