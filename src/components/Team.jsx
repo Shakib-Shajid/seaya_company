@@ -13,16 +13,32 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
+import { useState } from 'react';
 
 const Team = () => {
+    const [hovered, setHovered] = useState(false);
+
     return (
         <div className=' bg-[#8a8a8c] w-full mb-5'>
             <div className='w-full md:w-10/12 mx-auto'>
                 <h3 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full pt-10'>Our team</h3>
                 <div className='w-full md:w-11/12 mx-auto text-white'>
                     <p className='text-3xl py-20'>Multidisciplinary team, engaged and supportive</p>
-                    <p className='text-2xl underline'><Link href="/">Meet the team</Link></p>
+
+                    <Link href="/" className="relative flex items-center group text-2xl">
+                        {/* Static Text */}
+                        <span className="relative">
+                            Meet the team
+
+                            {/* Underline that animates when hovered */}
+                            <span
+                                className={`absolute left-0 bottom-0 w-full h-[2px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                            ></span>
+                        </span>
+                    </Link>
                 </div>
+
+
 
                 <Swiper
                     slidesPerView={4}

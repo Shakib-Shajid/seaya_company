@@ -1,7 +1,11 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 
+import { useState } from 'react';
+
 const Portfolio = () => {
+    const [hovered, setHovered] = useState(false);
     return (
         <div className='w-full md:w-11/12 mx-auto'>
             <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Portfolio</h2>
@@ -103,9 +107,23 @@ const Portfolio = () => {
 
 
             </div>
-            <div className="my-10  underline text-lg ml-7 md:ml-0 w-full ">
-                <p className="md:w-10/12 mx-auto lg:w-3/4"><Link href="/">View all companies</Link></p>
+
+            <div className="my-10 text-lg ml-7 md:ml-0 w-full">
+                <p className="md:w-10/12 mx-auto lg:w-3/4">
+                    <Link href="/" className="relative flex items-center group">
+                        {/* Static Text */}
+                        <span className="relative">
+                            View all companies
+
+                            {/* Underline that animates when hovered */}
+                            <span
+                                className={`absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                            ></span>
+                        </span>
+                    </Link>
+                </p>
             </div>
+
 
         </div>
     );
