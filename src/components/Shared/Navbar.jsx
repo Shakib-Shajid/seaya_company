@@ -52,7 +52,7 @@ const Navbar = () => {
                     <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
                         <form method="dialog">
                             {/* Closing button inside the modal */}
-                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-8 top-4 text-base">✕</button>
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-12 top-12 text-base">✕</button>
                         </form>
                         {/* <h3 className="font-bold text-lg">Hello!</h3>
                         <p className="py-4">Press ESC key or click on ✕ button to close</p> */}
@@ -64,9 +64,9 @@ const Navbar = () => {
                                     <li><Link href="/">Seaya Andromeda</Link></li>
                                     <li><Link href="/">Seaya Cathay Latam</Link></li>
                                     <li><Link href="/">Portfolio</Link></li>
-                                    <li><Link href="/">Team</Link></li>
-                                    <li><Link href="/">ESG/Impact</Link></li>
-                                    <li><Link href="/">Contact</Link></li>
+                                    <li><Link href="/team">Team</Link></li>
+                                    <li><Link href="/impact">ESG/Impact</Link></li>
+                                    <li><Link href="/contact">Contact</Link></li>
                                 </ul>
 
                             </div>

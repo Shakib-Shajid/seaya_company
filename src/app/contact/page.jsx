@@ -161,7 +161,7 @@ const page = () => {
                                                     <p>What fund(s) are most relevant to you?<span className='text-red-500'>*</span></p>
                                                     <p className='text-sm text-[#363A3A] mt-2'>Please note that to successfully submit your project, you are required to add extra material (e.g. a detailed presentation)</p>
                                                 </div>
-                                                <input type="file" className="file-input file-input-bordered file-input-md w-full max-w-xs" />
+                                                <input type="file" className="file-input file-input-bordered file-input-xs my-2 md:my-0 md:file-input-md w-full max-w-xs" />
                                             </label>
 
                                             <label className="form-control w-full">

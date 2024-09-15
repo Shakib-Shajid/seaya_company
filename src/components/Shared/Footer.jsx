@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -6,20 +7,20 @@ const Footer = () => {
             <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto my-20'>
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
-                    <a className="link link-hover mx-auto md:mx-0">Seaya Ventures</a>
-                    <a className="link link-hover mx-auto md:mx-0">Seaya Andromeda</a>
-                    <a className="link link-hover mx-auto md:mx-0">Seaya Cathay Latam</a>
-                    <a className="link link-hover mx-auto md:mx-0">Portfolio</a>
-                    <a className="link link-hover mx-auto md:mx-0">Team</a>
+                    <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
+                    <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Andromeda</Link>
+                    <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Cathay Latam</Link>
+                    <Link href="/" className="link link-hover mx-auto md:mx-0">Portfolio</Link>
+                    <Link href="/team" className="link link-hover mx-auto md:mx-0">Team</Link>
                 </nav>
 
                 <nav className='mt-20 lg:-ml-20 mx-auto md:mx-0'>
-                    <a className="link link-hover mx-auto md:mx-0">ESG/Impact</a>
-                    <a className="link link-hover mx-auto md:mx-0">News</a>
-                    <a className="link link-hover mx-auto md:mx-0">Talent</a>
-                    <a className="link link-hover mx-auto md:mx-0">Investor Area</a>
-                    <a className="link link-hover mx-auto md:mx-0">Contact</a>
-                    <a className="link link-hover mx-auto md:mx-0">Whistleblower Channel</a>
+                    <Link href="/impact" className="link link-hover mx-auto md:mx-0">ESG/Impact</Link>
+                    <Link href="" className="link link-hover mx-auto md:mx-0">News</Link>
+                    <Link href="" className="link link-hover mx-auto md:mx-0">Talent</Link>
+                    <Link href="" className="link link-hover mx-auto md:mx-0">Investor Area</Link>
+                    <Link href="/contact" className="link link-hover mx-auto md:mx-0">Contact</Link>
+                    <Link href="" className="link link-hover mx-auto md:mx-0">Whistleblower Channel</Link>
                 </nav>
 
                 <nav className='w-full lg:w-[650px] relative  mx-auto lg:-ml-32 grid grid-cols-1 my-5'>
