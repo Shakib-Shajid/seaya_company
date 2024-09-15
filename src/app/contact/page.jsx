@@ -15,7 +15,7 @@ const page = () => {
                     <div className='flex gap-3 flex-col lg:flex-row md:w-11/12 my-10 md:my-5 lg:my-20'>
                         <h3 className='text-3xl md:text-4xl lg:text-6xl w-full md:w-1/3 my-5'>Reach out</h3>
                         <div className='w-full lg:w-2/3'>
-                            <div className='flex flex-col lg:flex-row lg:gap-40 space-y-5'>
+                            <div className='flex flex-col lg:flex-row lg:gap-40'>
                                 <div>
                                     <p className='text-xl md:text-2xl'>Press inquiries</p>
                                     <p className='text-base'>press@seaya.vc</p>
