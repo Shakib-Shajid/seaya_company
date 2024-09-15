@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -8,8 +9,8 @@ const page = () => {
                 <h3 className='text-2xl md:text-4xl lg:text-6xl'>Our sustainability <br className='visible md:hidden lg:block'/> commitment</h3>
                 <p className='text-xl lg:w-2/4 my-2 space-y-3'>Since we started investing in 2013, we have backed founders and tech companies that have a mission that goes beyond financials. On top of making the world a better place, these companies are more resilient, attract better talent, and provide a better financial return for investors.</p>
                 <div className='space-y-4 mt-3'>
-                    <p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2023 ESG & Impact Report</p>
-                    <p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2022 ESG & Impact Report</p>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2023 ESG & Impact Report</p></Link>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2022 ESG & Impact Report</p></Link>
                 </div>
             </section>
 
@@ -86,11 +87,11 @@ const page = () => {
                         <p className='w-4/5 lg:w-2/5 text-2xl space-y-5'>We believe in companies working with sustainable behaviors, striving to make the world a better place and creating long-term value for society. That is why integrating responsible investment policies in our processes came so naturally.</p>
 
                         <div className='space-y-3'>
-                            <p>&minus; Read more about our sustainable investment policy</p>
-                            <p>&minus; General disclosure obligations at manager level</p>
-                            <p>&minus; Seaya III disclosures</p>
-                            <p>&minus; Seaya Andromeda disclosures</p>
-                            <p>&minus; Seaya Principal Adverse Impact indicators</p>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/03/Seaya-VC_Responsible-Investment-Policy_vFeb2023-4.pdf" target="_blank"><p>&minus; Read more about our sustainable investment policy</p></Link>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/GENERAL-DISCLOSURE-OBLIGATIONS-AT-MANAGER-LEVEL-SEAYA-JUNE.pdf" target="_blank"><p>&minus; General disclosure obligations at manager level</p></Link>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/Seaya-III-website-disclosures-EN-20230629.pdf" target="_blank"><p>&minus; Seaya III disclosures</p></Link>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/SEAYA-ANDROMEDA-website-disclosures-EN-20230629.pdf" target="_blank"><p>&minus; Seaya Andromeda disclosures</p></Link>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/PIAS-Seaya-2023.pdf" target="_blank"><p>&minus; Seaya Principal Adverse Impact indicators</p></Link>
                         </div>
                     </div>
 

@@ -25,7 +25,7 @@ const Team = () => {
                 <div className='w-full md:w-11/12 mx-auto text-white'>
                     <p className='text-3xl py-20'>Multidisciplinary team, engaged and supportive</p>
 
-                    <Link href="/" className="relative flex items-center group text-2xl">
+                    <Link href="/team" className="relative flex items-center group text-2xl">
                         {/* Static Text */}
                         <span className="relative">
                             Meet the team
