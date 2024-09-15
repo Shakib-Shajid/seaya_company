@@ -10,7 +10,7 @@ const page = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:w-10/12 lg:w-full mx-auto'>
                 {/* 1st */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_1.png"
@@ -30,7 +30,7 @@ const page = () => {
                 </div>
                 {/* 2nd */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_2.png"
@@ -50,7 +50,7 @@ const page = () => {
                 </div>
                 {/* 3rd */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_3.png"
@@ -70,7 +70,7 @@ const page = () => {
                 </div>
                 {/* 4th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_4.png"
@@ -90,7 +90,7 @@ const page = () => {
                 </div>
                 {/* 5th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_1.png"
@@ -110,7 +110,7 @@ const page = () => {
                 </div>
                 {/* 6th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_2.png"
@@ -130,7 +130,7 @@ const page = () => {
                 </div>
                 {/* 7th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_3.png"
@@ -150,7 +150,7 @@ const page = () => {
                 </div>
                 {/* 8th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_4.png"
@@ -170,7 +170,7 @@ const page = () => {
                 </div>
                 {/* 9th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_2.png"
@@ -190,7 +190,7 @@ const page = () => {
                 </div>
                 {/* 10th */}
                 <div className="card card-compact w-[300px] mx-auto">
-                    <Link href="https://linkedin.com/">
+                    <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image
                                 src="/client_3.png"
@@ -217,7 +217,7 @@ const page = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:w-10/12 lg:w-full mx-auto '>
                     {/* 1st */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_1.png"
@@ -237,7 +237,7 @@ const page = () => {
                     </div>
                     {/* 2nd */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_2.png"
@@ -257,7 +257,7 @@ const page = () => {
                     </div>
                     {/* 3rd */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_3.png"
@@ -277,7 +277,7 @@ const page = () => {
                     </div>
                     {/* 4th */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_4.png"
@@ -297,7 +297,7 @@ const page = () => {
                     </div>
                     {/* 5th */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_1.png"
@@ -317,7 +317,7 @@ const page = () => {
                     </div>
                     {/* 6th */}
                     <div className="card card-compact w-[300px] mx-auto">
-                        <Link href="https://linkedin.com/">
+                        <Link href="https://linkedin.com/" target="_blank"> 
                             <figure>
                                 <Image
                                     src="/client_2.png"
