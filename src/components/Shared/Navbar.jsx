@@ -60,7 +60,7 @@ const Navbar = () => {
                             <div>
                                 <ul className='space-y-3 w-72'>
                                     <li><Link href="/">Home</Link></li>
-                                    <li><Link href="/">Seaya Ventures</Link></li>
+                                    <li><Link href="/ventures">Seaya Ventures</Link></li>
                                     <li><Link href="/">Seaya Andromeda</Link></li>
                                     <li><Link href="/">Seaya Cathay Latam</Link></li>
                                     <li><Link href="/">Portfolio</Link></li>
