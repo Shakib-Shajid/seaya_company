@@ -52,7 +52,7 @@ const Footer = () => {
                     <a className="btn btn-ghost text-sm lg:text-xl">© 2024 Seaya · Designed by WSC</a>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1 text-lg grid md:flex grid-cols-1">
+                    <ul className="menu menu-horizontal px-1 text-lg flex flex-col items-center lg:flex-row ">
                         <li><a>Legal Notice</a></li>
                         <li><a>Privacy policy</a></li>
                         <li><a>Cookie policy</a></li>
