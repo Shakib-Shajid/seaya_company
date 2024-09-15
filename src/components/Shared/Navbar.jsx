@@ -62,7 +62,7 @@ const Navbar = () => {
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/ventures">Seaya Ventures</Link></li>
                                     <li><Link href="/">Seaya Andromeda</Link></li>
-                                    <li><Link href="/">Seaya Cathay Latam</Link></li>
+                                    <li><Link href="/cathay-latam">Seaya Cathay Latam</Link></li>
                                     <li><Link href="/">Portfolio</Link></li>
                                     <li><Link href="/team">Team</Link></li>
                                     <li><Link href="/impact">ESG/Impact</Link></li>

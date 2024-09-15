@@ -7,9 +7,9 @@ const Footer = () => {
             <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto'>  {/*my-20*/}
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
-                    <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
+                    <Link href="/ventures" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
                     <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Andromeda</Link>
-                    <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Cathay Latam</Link>
+                    <Link href="/cathay-latam" className="link link-hover mx-auto md:mx-0">Seaya Cathay Latam</Link>
                     <Link href="/" className="link link-hover mx-auto md:mx-0">Portfolio</Link>
                     <Link href="/team" className="link link-hover mx-auto md:mx-0">Team</Link>
                 </nav>
