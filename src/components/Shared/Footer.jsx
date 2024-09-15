@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className=" bg-[#363A3A] text-neutral-content md:p-14 ">
-            <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto my-20'>
+            <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto'>  {/*my-20*/}
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
                     <Link href="/" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
