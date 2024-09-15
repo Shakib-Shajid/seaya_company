@@ -42,33 +42,35 @@ const Funds = () => {
                     </div>
                 </Link>
                 {/* 2nd card */}
-                <div className="card w-72 md:w-10/12 lg:w-full h-[26rem] shadow-xl relative flex flex-col justify-between mx-auto lg:mx-0">
-                    {/* Background image with opacity */}
-                    <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
-                        backgroundImage: "url('/SEA_Apartado_02.webp')"
-                    }}></div>
+                <Link href="/andromeda">
+                    <div className="card w-72 md:w-10/12 lg:w-full h-[26rem] shadow-xl relative flex flex-col justify-between mx-auto lg:mx-0">
+                        {/* Background image with opacity */}
+                        <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
+                            backgroundImage: "url('/SEA_Apartado_02.webp')"
+                        }}></div>
 
-                    {/* Semi-transparent overlay for text clarity */}
-                    <div className="absolute inset-0 bg-black opacity-40"></div>
+                        {/* Semi-transparent overlay for text clarity */}
+                        <div className="absolute inset-0 bg-black opacity-40"></div>
 
-                    {/* Content of the card */}
-                    <div className="relative z-10 flex flex-col h-full justify-between mx-auto lg:mx-0">
-                        <figure className="px-10 pt-10">
-                            <Image
-                                src="/SEA_Logo_02.webp"
-                                alt="Shoes"
-                                width="100"
-                                height="100"
-                                className="rounded-xl bg-transparent" />
-                        </figure>
-                        <div className="text-white card-body items-center text-center">
-                            <p>Seaya Andromeda is a sustainability fund addressing the global climate challenges through technology.</p>
-                        </div>
-                        <div className="card-actions justify-center pb-5">
-                            <button className="btn bg-transparent text-white">More Info</button>
+                        {/* Content of the card */}
+                        <div className="relative z-10 flex flex-col h-full justify-between mx-auto lg:mx-0">
+                            <figure className="px-10 pt-10">
+                                <Image
+                                    src="/SEA_Logo_02.webp"
+                                    alt="Shoes"
+                                    width="100"
+                                    height="100"
+                                    className="rounded-xl bg-transparent" />
+                            </figure>
+                            <div className="text-white card-body items-center text-center">
+                                <p>Seaya Andromeda is a sustainability fund addressing the global climate challenges through technology.</p>
+                            </div>
+                            <div className="card-actions justify-center pb-5">
+                                <button className="btn bg-transparent text-white">More Info</button>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
 
                 {/* 3rd card */}
                 <Link href="/cathay-latam">

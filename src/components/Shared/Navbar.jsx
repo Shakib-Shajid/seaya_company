@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
@@ -22,6 +21,12 @@ const Navbar = () => {
         };
     }, []);
 
+    // Function to close modal
+    const closeModal = () => {
+        const modal = document.getElementById('my_modal_3');
+        modal.close();
+    };
+
     return (
         <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 lg:py-10 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
             <div className="flex-1">
@@ -38,7 +43,6 @@ const Navbar = () => {
                         className="h-10 w-10"
                         fill="none"
                         viewBox="0 0 24 24"
-                        // stroke={isScrolled ? 'black' : 'white'}>
                         stroke="black">
                         <path
                             strokeLinecap="round"
@@ -46,7 +50,6 @@ const Navbar = () => {
                             strokeWidth="1"
                             d="M4 6h16M4 12h16M4 18h7" />
                     </svg>
-
                 </button>
                 <dialog id="my_modal_3" className="modal">
                     <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
@@ -54,39 +57,32 @@ const Navbar = () => {
                             {/* Closing button inside the modal */}
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-12 top-12 text-base">✕</button>
                         </form>
-                        {/* <h3 className="font-bold text-lg">Hello!</h3>
-                        <p className="py-4">Press ESC key or click on ✕ button to close</p> */}
                         <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
                             <div>
                                 <ul className='space-y-3 w-72'>
-                                    <li><Link href="/">Home</Link></li>
-                                    <li><Link href="/ventures">Seaya Ventures</Link></li>
-                                    <li><Link href="/">Seaya Andromeda</Link></li>
-                                    <li><Link href="/cathay-latam">Seaya Cathay Latam</Link></li>
-                                    <li><Link href="/">Portfolio</Link></li>
-                                    <li><Link href="/team">Team</Link></li>
-                                    <li><Link href="/impact">ESG/Impact</Link></li>
-                                    <li><Link href="/contact">Contact</Link></li>
+                                    <li><Link href="/" onClick={closeModal}>Home</Link></li>
+                                    <li><Link href="/ventures" onClick={closeModal}>Seaya Ventures</Link></li>
+                                    <li><Link href="/andromeda" onClick={closeModal}>Seaya Andromeda</Link></li>
+                                    <li><Link href="/cathay-latam" onClick={closeModal}>Seaya Cathay Latam</Link></li>
+                                    <li><Link href="/" onClick={closeModal}>Portfolio</Link></li>
+                                    <li><Link href="/team" onClick={closeModal}>Team</Link></li>
+                                    <li><Link href="/impact" onClick={closeModal}>ESG/Impact</Link></li>
+                                    <li><Link href="/contact" onClick={closeModal}>Contact</Link></li>
                                 </ul>
-
                             </div>
                             <div className='mt-12 md:mt-32 leading-loose'>
                                 <ul className='space-y-3 w-full'>
-                                    <li className='font-bold'><Link href="/">in</Link></li>
-                                    <li className='text-2xl'><Link href="/">News</Link></li>
-                                    <li className='text-2xl'><Link href="/">Talent</Link></li>
-                                    <li className='text-2xl'><Link href="/">Investor Area</Link></li>
+                                    <li className='font-bold'><Link href="/" onClick={closeModal}>in</Link></li>
+                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>News</Link></li>
+                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>Talent</Link></li>
+                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>Investor Area</Link></li>
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </dialog>
             </div>
-
-
         </div>
-
     );
 };
 

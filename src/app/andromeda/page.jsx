@@ -379,7 +379,7 @@ const page = () => {
             <section className='bg-[#EBEBEB]'>
                 <div className='md:p-10 lg:p-24 text-center'>
                     <h3 className='text-2xl md:text-3xl p-5 md:p-10'>Seaya Andromeda Sustainable Tech Fund I, FCR.</h3>
-                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/02/20230224_Modelo-PRIIPs_Andromeda_clase-A.pdf">Legal Documents: PRIIPS</Link></p>
+                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/02/20230224_Modelo-PRIIPs_Andromeda_clase-A.pdf" target="_blank">Legal Documents: PRIIPS</Link></p>
                 </div>
 
             </section>

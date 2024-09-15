@@ -71,7 +71,7 @@ const page = () => {
             <section className='bg-[#EBEBEB]'>
                 <div className='md:p-10 lg:p-24 text-center'>
                     <h3 className='text-2xl md:text-3xl p-5 md:p-10'>Seaya Ventures III FCR, FCRE</h3>
-                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf">Legal Documents: KIID PRIIPS</Link></p>
+                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf" target="_blank">Legal Documents: KIID PRIIPS</Link></p>
                 </div>
 
             </section>
