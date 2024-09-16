@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -70,18 +71,18 @@ const page = () => {
                     <p>You can allow, block or delete the cookies installed on your computer by configuring the browser options installed on your computer:</p> <br />
 
                     <ul className='list-disc ml-5'>
-                        <li><span className='font-bold'>Microsoft Internet Explorer or Microsoft Edge:</span> http://windows.microsoft.com/es- es/windows-vista/Block-or-allow-cookies</li>
-                        <li><span className='font-bold'>Mozilla Firefox:</span>http://support.mozilla.org/es/kb/<br className='visible md:hidden'/>impedir-que-los-sitios-web- guarden-sus-preferencia</li>
-                        <li><span className='font-bold'>Chrome:</span> https://support.google.com/accounts/ <br className='visible md:hidden'/>answer/61416?hl=es</li>
-                        <li><span className='font-bold'>Safari:</span> http://safari.helpmax.net/es/privacidad-y-seguridad/como-gestionar-las- cookies/</li>
-                        <li><span className='font-bold'>Opera: </span>http://help.opera.com/Linux/10.60/es-ES/cookies.html</li>
+                        <li><span className='font-bold'>Microsoft Internet Explorer or Microsoft Edge:</span><Link href="http://windows.microsoft.com/es-es/windows-vista/Block-or-allow-cookies">http://windows.microsoft.com/es-es/windows-vista/Block-or-allow-cookies</Link></li>
+                        <li><span className='font-bold'>Mozilla Firefox:</span> <Link href="http://support.mozilla.org/es/kb/impedir-que-los-sitios-web-guarden-sus-preferencia">http://support.mozilla.org/es/kb/<br className='visible md:hidden'/>impedir-que-los-sitios-web-guarden-sus-preferencia</Link></li>
+                        <li><span className='font-bold'>Chrome:</span><Link href="https://support.google.com/accounts/answer/61416?hl=es">https://support.google.com/accounts/ <br className='visible md:hidden'/>answer/61416?hl=es</Link></li>
+                        <li><span className='font-bold'>Safari:</span> <Link href="http://safari.helpmax.net/es/privacidad-y-seguridad/como-gestionar-las-cookies/">http://safari.helpmax.net/es/privacidad-y-seguridad/como-gestionar-las-cookies/</Link></li>
+                        <li><span className='font-bold'>Opera: </span> <Link href="http://help.opera.com/Linux/10.60/es-ES/cookies.html">http://help.opera.com/Linux/10.60/es-ES/cookies.html</Link></li>
                     </ul> <br /><br />
 
                     <p>In addition, you can also manage the storage of cookies in your browser using tools such as the following:</p>
 
                     <ul className='list-disc ml-5'>
-                        <li><span className='font-bold'>Ghostery:</span> ghostery.com</li>
-                        <li><span className='font-bold'>Your Online Choices:</span> youronlinechoices.com/es/</li>
+                        <li><span className='font-bold'>Ghostery:</span> <Link href="https://www.ghostery.com/">ghostery.com</Link></li>
+                        <li><span className='font-bold'>Your Online Choices:</span> <Link href="https://www.youronlinechoices.com/es/">youronlinechoices.com/es/</Link></li>
                     </ul>
                 </div>
             </section>

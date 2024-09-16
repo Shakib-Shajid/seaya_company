@@ -55,7 +55,7 @@ const Footer = () => {
                     <ul className="menu menu-horizontal px-1 text-lg flex flex-col items-center lg:flex-row ">
                         <li><Link href="/legal-notice">Legal Notice</Link></li>
                         <li><Link href="/privacy-policy">Privacy policy</Link></li>
-                        <li><Link href="/">Cookie policy</Link></li>
+                        <li><Link href="/cookie-policy">Cookie policy</Link></li>
                        
                     </ul>
                 </div>
