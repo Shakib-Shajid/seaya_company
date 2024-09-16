@@ -18,7 +18,7 @@ const Footer = () => {
                     <Link href="/impact" className="link link-hover mx-auto md:mx-0">ESG/Impact</Link>
                     <Link href="/news" className="link link-hover mx-auto md:mx-0">News</Link>
                     <Link href="" className="link link-hover mx-auto md:mx-0">Talent</Link>
-                    <Link href="" className="link link-hover mx-auto md:mx-0">Investor Area</Link>
+                    <Link href="/investor" className="link link-hover mx-auto md:mx-0">Investor Area</Link>
                     <Link href="/contact" className="link link-hover mx-auto md:mx-0">Contact</Link>
                     <Link href="" className="link link-hover mx-auto md:mx-0">Whistleblower Channel</Link>
                 </nav>

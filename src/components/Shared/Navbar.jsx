@@ -75,7 +75,7 @@ const Navbar = () => {
                                     <li className='font-bold'><Link href="/https://www.linkedin.com/" onClick={closeModal}>in</Link></li>
                                     <li className='text-2xl'><Link href="/news" onClick={closeModal}>News</Link></li>
                                     <li className='text-2xl'><Link href="/" onClick={closeModal}>Talent</Link></li>
-                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>Investor Area</Link></li>
+                                    <li className='text-2xl'><Link href="/investor" onClick={closeModal}>Investor Area</Link></li>
                                 </ul>
                             </div>
                         </div>
