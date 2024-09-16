@@ -12,7 +12,7 @@ const page = () => {
                 <Image src="/legal.png" width="300" height="300" alt="" className='w-1/2 hidden lg:grid' />
             </section>
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-10 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
             <section className='text-[#727676] flex justify-center ml-2 md:ml-0'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto '>
                     <p>The purpose of the collection and automated processing of personal data is to maintain the commercial relationship and the performance of information, training, advisory and other activities of Seaya Capital Gestion SGEIC S.A. </p> <br />
