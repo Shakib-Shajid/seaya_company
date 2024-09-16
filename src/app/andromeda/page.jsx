@@ -353,7 +353,7 @@ const page = () => {
                             </div>
                         </div>
 
-                        {/* 1st card */}
+                        {/* 4th card */}
                         <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
