@@ -10,7 +10,8 @@ const Portfolio = () => {
         <div className='w-full md:w-11/12 mx-auto'>
             <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Portfolio</h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:w-3/4 mx-auto my-10 ">
-                {/* ............................................................................ */}
+
+
                 {/* 1st card */}
 
                 <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
@@ -101,16 +102,12 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                {/* ............................................................................ */}
-
-
-
 
             </div>
 
             <div className="my-10 text-lg ml-7 md:ml-0 w-full">
                 <p className="md:w-10/12 mx-auto lg:w-3/4">
-                    <Link href="/" className="relative flex items-center group">
+                    <Link href="/portfolio" className="relative flex items-center group">
                         {/* Static Text */}
                         <span className="relative">
                             View all companies

@@ -10,7 +10,7 @@ const Footer = () => {
                     <Link href="/ventures" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
                     <Link href="/andromeda" className="link link-hover mx-auto md:mx-0">Seaya Andromeda</Link>
                     <Link href="/cathay-latam" className="link link-hover mx-auto md:mx-0">Seaya Cathay Latam</Link>
-                    <Link href="/" className="link link-hover mx-auto md:mx-0">Portfolio</Link>
+                    <Link href="/portfolio" className="link link-hover mx-auto md:mx-0">Portfolio</Link>
                     <Link href="/team" className="link link-hover mx-auto md:mx-0">Team</Link>
                 </nav>
 
