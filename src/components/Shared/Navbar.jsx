@@ -72,8 +72,8 @@ const Navbar = () => {
                             </div>
                             <div className='mt-12 md:mt-32 leading-loose'>
                                 <ul className='space-y-3 w-full'>
-                                    <li className='font-bold'><Link href="/" onClick={closeModal}>in</Link></li>
-                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>News</Link></li>
+                                    <li className='font-bold'><Link href="/https://www.linkedin.com/" onClick={closeModal}>in</Link></li>
+                                    <li className='text-2xl'><Link href="/news" onClick={closeModal}>News</Link></li>
                                     <li className='text-2xl'><Link href="/" onClick={closeModal}>Talent</Link></li>
                                     <li className='text-2xl'><Link href="/" onClick={closeModal}>Investor Area</Link></li>
                                 </ul>

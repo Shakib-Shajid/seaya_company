@@ -16,7 +16,7 @@ const Footer = () => {
 
                 <nav className='mt-20 lg:-ml-20 mx-auto md:mx-0'>
                     <Link href="/impact" className="link link-hover mx-auto md:mx-0">ESG/Impact</Link>
-                    <Link href="" className="link link-hover mx-auto md:mx-0">News</Link>
+                    <Link href="/news" className="link link-hover mx-auto md:mx-0">News</Link>
                     <Link href="" className="link link-hover mx-auto md:mx-0">Talent</Link>
                     <Link href="" className="link link-hover mx-auto md:mx-0">Investor Area</Link>
                     <Link href="/contact" className="link link-hover mx-auto md:mx-0">Contact</Link>
