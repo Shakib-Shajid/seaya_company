@@ -4,7 +4,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className='flex flex-col md:flex-row gap-none w-[94%] mx-auto'>
+        <div className='flex flex-col md:flex-row gap-none w-[94%] lg:w-full mx-auto'>
             <div
                 className="hero min-h-screen w-1/2 opacity-50 hidden lg:grid"
                 style={{
