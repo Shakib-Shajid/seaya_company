@@ -4,7 +4,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className='flex flex-col md:flex-row gap-none w-[94%] lg:w-full mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-none w-full mx-auto'>
             <div
                 className="hero min-h-screen lg:w-1/2 bg-[#191970]"
             >
@@ -91,13 +91,13 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:items-center lg:justify-center w-[94%] mx-auto md:w-1/2 my-20 lg:0' >
+            <div className='lg:flex lg:items-center lg:justify-center w-[94%] mx-auto lg:w-1/2 my-20' >
                 <div className='text-center'>
                     <h3 className='text-xl lg:text-2xl font-bold'>Canal de Denuncias</h3>
                     <p className='text-sm lg:text-base font-bold uppercase text-[#A1A5B7] mt-5 mb-10'>seaya capital gestion sgeic, s.a.</p>
-                    <div className='flex flex-col md:flex-row gap-5'>
-                        <button className="btn w-[94%] mx-auto md:mx-0 px-10 text-center bg-[#191970] text-white">Hacer comunicación</button>
-                        <button className="btn w-[94%] mx-auto md:mx-0 px-20 text-center bg-[#F5F8FA] text-black">Consulta</button>
+                    <div className='flex flex-col md:flex-row gap-5 justify-center w-full'>
+                        <button className="btn mx-auto md:mx-0 px-10 text-center bg-[#191970] text-white">Hacer comunicación</button>
+                        <button className="btn mx-auto md:mx-0 px-20 text-center bg-[#F5F8FA] text-black">Consulta</button>
                     </div>
 
                 </div>
