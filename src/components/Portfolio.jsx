@@ -105,7 +105,7 @@ const Portfolio = () => {
 
             </div>
 
-            <div className="my-10 text-lg ml-7 md:ml-0 w-full">
+            <div className="my-10 text-lg pl-7 md:pl-0 w-full">
                 <p className="md:w-10/12 mx-auto lg:w-3/4">
                     <Link href="/portfolio" className="relative flex items-center group">
                         {/* Static Text */}

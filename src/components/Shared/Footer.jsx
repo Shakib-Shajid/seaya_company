@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className=" bg-[#363A3A] text-neutral-content md:p-14 ">
-            <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto'>  {/*my-20*/}
+            <div className='footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2 w-full lg:w-10/12 mx-auto'> 
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
                     <Link href="/ventures" className="link link-hover mx-auto md:mx-0">Seaya Ventures</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <Link href="" className="link link-hover mx-auto md:mx-0">Talent</Link>
                     <Link href="/investor" className="link link-hover mx-auto md:mx-0">Investor Area</Link>
                     <Link href="/contact" className="link link-hover mx-auto md:mx-0">Contact</Link>
-                    <Link href="" className="link link-hover mx-auto md:mx-0">Whistleblower Channel</Link>
+                    <Link href="/channel" className="link link-hover mx-auto md:mx-0">Whistleblower Channel</Link>
                 </nav>
 
                 <nav className='w-full lg:w-[650px] relative  mx-auto lg:-ml-32 grid grid-cols-1 my-5'>
