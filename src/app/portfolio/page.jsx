@@ -17,72 +17,78 @@ const page = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 w-full md:w-11/12 p-2 lg:p-0">
                     {/* ............................................................................ */}
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link>
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+
+                            </div>
                         </div>
+                    </Link>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
-
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+                </div >
+            </section >
 
 
 
@@ -107,465 +113,507 @@ const page = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 w-full md:w-11/12 p-2 lg:p-0">
                     {/* ............................................................................ */}
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link>
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    <Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
                     {/* 1st card */}
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_4.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_4.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
+
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Glovo</h2>
+                                <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
+                            </div>
                         </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Glovo</h2>
-                            <p className="my-2">Glovo flies to deliver to you whatever you want from your city</p>
-                        </div>
-                    </div>
-
+                    </Link >
 
 
                     {/* 2nd card */}
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_5.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_5.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Wallbox</h2>
-                            <p className="my-2">Smart electric car charging stations</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Wallbox</h2>
+                                <p className="my-2">Smart electric car charging stations</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
                     {/* 3rd card */}
 
 
-                    <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
-                        {/* Container for the image */}
-                        <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
-                            <Image
-                                src="/group_6.webp"
-                                alt="Shoes"
-                                width="300"
-                                height="300"
-                                className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
-                            />
-                        </div>
+                    < Link href={`/portfolio/abc`}>
+                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                            {/* Container for the image */}
+                            <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
+                                <Image
+                                    src="/group_6.webp"
+                                    alt="Shoes"
+                                    width="300"
+                                    height="300"
+                                    className="absolute object-cover w-full h-full transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-105 rounded-lg"
+                                />
+                            </div>
 
-                        <div className="py-4 flex flex-col">
-                            <h2 className="card-title text-xl font-bold">Cabify</h2>
-                            <p className="my-2">Transforming mobility in Iberia and LatAm</p>
+                            <div className="py-4 flex flex-col">
+                                <h2 className="card-title text-xl font-bold">Cabify</h2>
+                                <p className="my-2">Transforming mobility in Iberia and LatAm</p>
 
-                        </div>
-                    </div>
+                            </div>
+                        </div >
+                    </Link >
 
 
-                </div>
-            </section>
+                </div >
+            </section >
 
-        </div>
+        </div >
     );
 };
 
