@@ -40,7 +40,7 @@ const Navbar = () => {
                 <button className="btn btn-ghost" onClick={() => document.getElementById('my_modal_3').showModal()}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10"
+                        className="h-10 w-10 left-5 relative"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="black">
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
                         <form method="dialog">
                             {/* Closing button inside the modal */}
-                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-12 top-12 text-base">✕</button>
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-12 top-6 md:top-12 text-base">✕</button>
                         </form>
                         <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
                             <div>
