@@ -16,7 +16,7 @@ const page = () => {
                         <div className="join join-vertical lg:w-3/4 mx-auto text-white">
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">Introducción al canal</div>
+                                <div className="collapse-title text-sm font-bold">Introducción al canal</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p>
                                         Bienvenido al Canal del informante de SEAYA CAPITAL GESTION SGEIC, S.A.. Desde esta plataforma podrás exponer tu comunicado de manera confidencial, para después proceder a la investigación oportuna.</p>
@@ -24,7 +24,7 @@ const page = () => {
                             </div>
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">¿Quién puede utilizar este canal?</div>
+                                <div className="collapse-title text-sm font-bold">¿Quién puede utilizar este canal?</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p>El canal del informante SOLO podrá ser utilizado por personas que tengan la condición de: </p> <br />
                                     <ul className='list-disc ml-5'>
@@ -37,7 +37,7 @@ const page = () => {
                             </div>
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">¿Qué se puede informar?</div>
+                                <div className="collapse-title text-sm font-bold">¿Qué se puede informar?</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p>El canal del informante solo será usado para la comunicación de posibles delitos y/o incumplimientos referidos a:</p> <br />
                                     <ul>
@@ -55,7 +55,7 @@ const page = () => {
 
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">¿Cómo informar?</div>
+                                <div className="collapse-title text-sm font-bold">¿Cómo informar?</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p>Los comunicados se realizan a través del formulario disponible  en esta plataforma de la Entidad, accediendo a el desde el boton  <span className='font-bold'>Hacer comunicado</span></p>
                                 </div>
@@ -63,7 +63,7 @@ const page = () => {
 
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">Recomendaciones</div>
+                                <div className="collapse-title text-sm font-bold">Recomendaciones</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p><span className='font-bold'>¿Qué hechos quiere comunicar?</span> Describa los hechos de la forma más detallada, precisa y objetiva posible. Incluya todos los hechos que considere relevantes. No es necesario que realice una calificación jurídica de los mismos.</p> <br />
 
@@ -77,7 +77,7 @@ const page = () => {
 
                             <div className="collapse collapse-arrow border-base-300 border mb-2 rounded-xl text-start hover:bg-white hover:text-black">
                                 <input type="radio" name="my-accordion-4" />
-                                <div className="collapse-title text-sm m-0 p-0 font-bold">Confidencialidad y seguimiento</div>
+                                <div className="collapse-title text-sm font-bold">Confidencialidad y seguimiento</div>
                                 <div className="collapse-content bg-white text-black">
                                     <p>Se garantiza la confidencialidad total y absoluta del/la informante, informado/a y de otras personas que pudieran estar relacionadas, así como del contenido del comunicado.</p> <br />
                                     <p>El canal del  informante de SEAYA CAPITAL GESTION SGEIC, S.A. permite el anonimato, por lo que serán aceptadas para su tramitación aquellos comunicados en las que no consten los datos de identificación del/la informante, investigándose las mismas con la mayor prudencia y proporcionalidad.</p> <br />
@@ -93,11 +93,11 @@ const page = () => {
 
             <div className='lg:flex lg:items-center lg:justify-center w-[94%] mx-auto md:w-1/2 my-20 lg:0' >
                 <div className='text-center'>
-                    <h3 className='text-2xl font-bold'>Canal de Denuncias</h3>
-                    <p className='text-base font-bold uppercase text-[#A1A5B7] mt-5 mb-10'>seaya capital gestion sgeic, s.a.</p>
+                    <h3 className='text-xl lg:text-2xl font-bold'>Canal de Denuncias</h3>
+                    <p className='text-sm lg:text-base font-bold uppercase text-[#A1A5B7] mt-5 mb-10'>seaya capital gestion sgeic, s.a.</p>
                     <div className='flex flex-col md:flex-row gap-5'>
-                        <button className="btn px-10 text-center bg-[#191970] text-white">Hacer comunicación</button>
-                        <button className="btn px-20 text-center bg-[#F5F8FA] text-black">Consulta</button>
+                        <button className="btn w-[94%] mx-auto md:mx-0 px-10 text-center bg-[#191970] text-white">Hacer comunicación</button>
+                        <button className="btn w-[94%] mx-auto md:mx-0 px-20 text-center bg-[#F5F8FA] text-black">Consulta</button>
                     </div>
 
                 </div>
