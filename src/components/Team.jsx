@@ -17,13 +17,13 @@ import Image from 'next/image';
 const Team = () => {
 
     return (
-        <div className=' bg-[#8a8a8c] w-[96%] md:w-full mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto'>
+        <div className=' bg-[#8a8a8c] w-full mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto'>
             <div className='w-[96%] md:w-10/12 mx-auto'>
                 <div className='pt-10 md:pt-20'>
                     <hr className='border-black' />
                 </div>
-                <h3 className='text-3xl md:text-5xl md:w-full pt-10'>Our team</h3>
-                <div className='w-full md:w-11/12 mx-auto text-white'>
+                <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12'>Our team</h3>
+                <div className='w-11/12 mx-auto text-white'>
                     <p className='text-2xl md:text-3xl py-5 md:py-20'>Multidisciplinary team, engaged and supportive</p>
 
                     <Link href="/team" className="relative flex items-center group text-2xl">

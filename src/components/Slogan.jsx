@@ -12,8 +12,8 @@ const Slogan = () => {
                 {/* <span>&minus;</span>  */}
                 {/* <GoDash className="inline-block text-3xl hover:opacity-0"/> */}
                 <Link href="/impact">
-                    <div className="flex gap-2 md:w-10/12 lg:w-full font-light py-10 md:mx-auto">
-                        <div className="flex mt-3 md:mt-0">
+                    <div className="flex gap-2  md:w-10/12 lg:w-full font-light py-10 md:mx-auto ">
+                        <div className="flex mt-3 md:mt-0 ">
                             <IoIosArrowRoundForward className="text-3xl " />
                         </div>
                         <p className="text-lg hover:underline">Know more about our sustainability commitment</p>

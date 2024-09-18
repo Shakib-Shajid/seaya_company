@@ -7,12 +7,13 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const Portfolio = () => {
     return (
         <div className='w-full md:w-11/12 mx-auto'>
-            <h2 className='text-3xl md:text-5xl w-[92%] md:w-full font-bold my-3 mx-auto'>Portfolio</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:w-3/4 mx-auto my-10 ">
+            <h2 className='text-3xl md:text-5xl w-[92%] mx-auto md:w-full font-bold my-3'>Portfolio</h2>
+            {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 w-[92%] md:w-full lg:w-3/4 mx-auto my-10 "> */}
+            <div className='grid grid-cols-1 lg:grid-cols-3 my-10 gap-5 w-full lg:w-3/4 mx-auto'>
 
 
                 {/* 1st card */}
-                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
+                <div className="card w-[92%] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -42,7 +43,7 @@ const Portfolio = () => {
                 </div>
 
                 {/* 2nd card */}
-                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
+                <div className="card w-[92%] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -73,7 +74,7 @@ const Portfolio = () => {
 
 
                 {/* 3rd card */}
-                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
+                <div className="card w-[92%] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -104,7 +105,7 @@ const Portfolio = () => {
 
             </div>
 
-            <div className="my-10 text-lg pl-4 md:pl-0 w-full">
+            <div className="my-10 text-lg w-[92%] md:w-full mx-auto">
                 <p className="md:w-10/12 mx-auto lg:w-3/4">
                     <Link href="/portfolio" className="relative flex items-center group">
                         {/* Static Text */}

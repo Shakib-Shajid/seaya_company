@@ -13,7 +13,7 @@ const Funds = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 my-10 gap-5 w-full lg:w-3/4 mx-auto'>
                 {/* 1st card */}
                 <Link href="/ventures">
-                    <div className="card w-[92%] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0 ">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0 ">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat " style={{
                             backgroundImage: "url('/SEA_Apartado_03.webp')"
@@ -43,7 +43,7 @@ const Funds = () => {
                 </Link>
                 {/* 2nd card */}
                 <Link href="/andromeda">
-                    <div className="card w-[92%] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
                             backgroundImage: "url('/SEA_Apartado_02.webp')"
@@ -74,7 +74,7 @@ const Funds = () => {
 
                 {/* 3rd card */}
                 <Link href="/cathay-latam">
-                    <div className="card w-[92%] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between  mx-auto lg:mx-0">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between  mx-auto lg:mx-0">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
                             backgroundImage: "url('/SEA_Apartado_01.webp')"

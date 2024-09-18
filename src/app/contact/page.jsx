@@ -9,7 +9,7 @@ const page = () => {
                 <h3 className='text-3xl md:text-4xl lg:text-6xl'>Contact</h3>
             </section>
 
-            <section className='max-w-full '>
+            <section className=''>
                 <div className='md:pl-24 lg:pt-16 ml-2 md:ml-0'>
                     <hr className='border mb-5 border-gray-400 md:w-11/12' />
                     <div className='flex gap-3 flex-col lg:flex-row md:w-11/12 my-10 md:my-5 lg:my-20'>

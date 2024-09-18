@@ -37,10 +37,10 @@ const Navbar = () => {
                 )}
             </div>
             <div className="flex-none">
-                <button className="btn btn-ghost" onClick={() => document.getElementById('my_modal_3').showModal()}>
+                <button className="btn btn-ghost " onClick={() => document.getElementById('my_modal_3').showModal()}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 left-5 relative"
+                        className="w-7 md:h-10 md:w-10 relative left-2 md:left-0"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="black">
