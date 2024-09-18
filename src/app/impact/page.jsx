@@ -1,97 +1,137 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { GoDash } from "react-icons/go";
+
 
 const page = () => {
     return (
         <div>
-            <section className='md:p-24 mt-20 md:mt-0 ml-2 md:ml-0'>
-                <h3 className='text-2xl md:text-4xl lg:text-6xl'>Our sustainability <br className='visible md:hidden lg:block'/> commitment</h3>
+            <section className='md:p-24 mt-20 md:mt-0 w-[94%] md:w-full mx-auto'>
+                <h3 className='text-3xl md:text-4xl lg:text-6xl'>Our sustainability <br className='visible md:hidden lg:block' /> commitment</h3>
                 <p className='text-xl lg:w-2/4 my-2 space-y-3'>Since we started investing in 2013, we have backed founders and tech companies that have a mission that goes beyond financials. On top of making the world a better place, these companies are more resilient, attract better talent, and provide a better financial return for investors.</p>
                 <div className='space-y-4 mt-3'>
-                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2023 ESG & Impact Report</p></Link>
-                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'>&minus;</span> Seaya 2022 ESG & Impact Report</p></Link>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'><GoDash /></span> Seaya 2023 ESG & Impact Report</p></Link>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'><GoDash /></span> Seaya 2022 ESG & Impact Report</p></Link>
                 </div>
             </section>
 
-            <section className='bg-[#97D4CB] max-w-full '>
-                <div className='md:pl-24 md:pt-24 ml-2 md:ml-0'>
-                    <hr className='border mb-5 border-gray-400 md:w-11/12' />
+            <section className='bg-[#97D4CB] w-[94%] md:w-full mx-auto'>
+                <div className='md:px-24 md:py-16 w-[98%] md:w-full mx-auto'>
+                    <div className='pt-8 pb-2'>
+                        <hr className='border border-gray-400 md:w-11/12' />
+                    </div>
                     <h3 className='text-2xl md:text-4xl lg:text-6xl'>Seaya Andromeda</h3>
                     <p className='text-xl lg:w-2/4 pr-0 md:pr-7 lg:pr-0 my-8 space-y-3'>Seaya’s sustainability commitment has recently entered a new chapter with the launch of Seaya Andromeda, an Article 9 €300M venture capital fund that will promote a sustainable and healthy society by reducing waste and pollution, through investments in top European tech-driven companies focusing on GreenTech, Circular Economy and AgriTech & Sustainable Food Value Chain
                         Find out more here</p>
-
-                    <p>&minus;Find out more here</p>
+                    <div className='flex items-center'>
+                        <GoDash className='inline-block' />
+                        <p>Find out more here</p>
+                    </div>
                 </div>
             </section>
 
 
-            <section className='bg-[#97D4CB] max-w-full'>
-                <div className='md:pl-14 md:pt-14 lg:pl-24 lg:pt-24'>
-                    <hr className='border mb-5 border-gray-400 w-11/12 mx-auto' />
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-10 ml-2 md:ml-0'>Sustainability Strategy</h3>
+            <section className='bg-[#97D4CB] w-[94%] md:w-full mx-auto'>
+                <div className='md:px-24 pb-16 w-[98%] md:w-full mx-auto'>
+                    <div className='pt-8 pb-2'>
+                        <hr className='border border-gray-400 md:w-11/12' />
+                    </div>
+                    <h3 className='mt-5 mb-10 text-2xl md:text-4xl lg:text-6xl'>Sustainability Strategy</h3>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
 
                         {/* 1st */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
                             <figure>
                                 <Image src="/impact_1.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Founders</h2>
-                                <p className='text-base'>We look for mission driven founders and teams that share our values, with high standards and looking both for prosperity and purpose.</p>
+                            <div className="w-[292px]">
+                                <h2 className="card-title mt-7 mb-3">Founders</h2>
+                                <p className='text-base mb-3'>We look for mission driven founders and teams that share our values, with high standards and looking both for prosperity and purpose.</p>
                             </div>
                         </div>
 
                         {/* 2nd */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
                             <figure>
                                 <Image src="/impact_2.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Trends & Sectors</h2>
-                                <p className='text-base'>Solving real problems in sectors with high social and environmental impact like: Mobility, GreenTech, Healthcare, Circular Economy, AgriTech & Sustainable Food Value Chain, Decarbonization, Fintech, Proptech, Industry Tech and Content, among others.</p>
+                            <div className="w-[292px]">
+                                <h2 className="card-title mt-7 mb-3">Trends & Sectors</h2>
+                                <p className='text-base mb-3'>Solving real problems in sectors with high social and environmental impact like: Mobility, GreenTech, Healthcare, Circular Economy, AgriTech & Sustainable Food Value Chain, Decarbonization, Fintech, Proptech, Industry Tech and Content, among others.</p>
                             </div>
                         </div>
 
                         {/* 3rd */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
                             <figure>
                                 <Image src="/impact_3.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Our Process</h2>
-                                <p className='text-base'>Our investment process follows ESG best practices which allow us to maximize both financial returns and social and environmental impacts.</p>
+                            <div className="w-[292px]">
+                                <h2 className="card-title mt-7 mb-3">Our Process</h2>
+                                <p className='text-base mb-3'>Our investment process follows ESG best practices which allow us to maximize both financial returns and social and environmental impacts.</p>
                             </div>
                         </div>
 
                         {/* 4th */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
                             <figure>
                                 <Image src="/impact_1.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">A Measurable Impact</h2>
-                                <p className='text-base'>In addition to top quartile returns, we have measurable outcomes in social inclusion, job creation and reduction of environmental footprint.</p>
+                            <div className="w-[292px]">
+                                <h2 className="card-title mt-7 mb-3">A Measurable Impact</h2>
+                                <p className='text-base mb-3'>In addition to top quartile returns, we have measurable outcomes in social inclusion, job creation and reduction of environmental footprint.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='bg-[#363A3A] '>
-                <div className='md:pl-24 md:pt-24 ml-4 md:ml-0'>
-                    <hr className='border mb-5 border-gray-400 w-11/12' />
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-10 text-white'>Responsible Investment</h3>
+            <section className='bg-[#363A3A] w-[94%] md:w-full mx-auto'>
+                <div className='md:px-24 w-[98%] md:w-full mx-auto'>
+                    <div className='pt-16 pb-2'>
+                        <hr className='border border-gray-400 md:w-11/12' />
+                    </div>
+                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-3 text-white'>Responsible Investment</h3>
                     <div className='flex flex-col lg:flex-row gap-4 text-white'>
-                        <p className='w-4/5 lg:w-2/5 text-2xl space-y-5'>We believe in companies working with sustainable behaviors, striving to make the world a better place and creating long-term value for society. That is why integrating responsible investment policies in our processes came so naturally.</p>
+                        <p className='w-full lg:w-2/5 text-2xl space-y-5'>We believe in companies working with sustainable behaviors, striving to make the world a better place and creating long-term value for society. That is why integrating responsible investment policies in our processes came so naturally.</p>
 
                         <div className='space-y-3'>
-                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/03/Seaya-VC_Responsible-Investment-Policy_vFeb2023-4.pdf" target="_blank"><p>&minus; Read more about our sustainable investment policy</p></Link>
-                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/GENERAL-DISCLOSURE-OBLIGATIONS-AT-MANAGER-LEVEL-SEAYA-JUNE.pdf" target="_blank"><p>&minus; General disclosure obligations at manager level</p></Link>
-                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/Seaya-III-website-disclosures-EN-20230629.pdf" target="_blank"><p>&minus; Seaya III disclosures</p></Link>
-                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/SEAYA-ANDROMEDA-website-disclosures-EN-20230629.pdf" target="_blank"><p>&minus; Seaya Andromeda disclosures</p></Link>
-                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/PIAS-Seaya-2023.pdf" target="_blank"><p>&minus; Seaya Principal Adverse Impact indicators</p></Link>
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/03/Seaya-VC_Responsible-Investment-Policy_vFeb2023-4.pdf" target="_blank">
+                                <div className='flex gap-2 items-center'>
+                                    <GoDash className='text-3xl' />
+                                    <p>Read more about our sustainable investment policy</p>
+                                </div>
+                            </Link>
+
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/GENERAL-DISCLOSURE-OBLIGATIONS-AT-MANAGER-LEVEL-SEAYA-JUNE.pdf" target="_blank">
+                                <div className='flex gap-2 items-center'>
+                                    <GoDash className='text-3xl' />
+                                    <p>General disclosure obligations at manager level</p>
+                                </div>
+                            </Link>
+
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/Seaya-III-website-disclosures-EN-20230629.pdf" target="_blank">
+                                <div className='flex items-center'>
+                                    <GoDash className='text-3xl mr-1 md:mr-2' />
+                                    <p>Seaya III disclosures</p>
+                                </div>
+                            </Link>
+
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/07/SEAYA-ANDROMEDA-website-disclosures-EN-20230629.pdf" target="_blank">
+                                <div className='flex gap-2 items-center'>
+                                    <GoDash className='text-3xl' />
+                                    <p className='-ml-1 md:ml-0'>Seaya Andromeda disclosures</p>
+                                </div>
+                            </Link>
+
+                            <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/PIAS-Seaya-2023.pdf" target="_blank">
+                                <div className='flex gap-2 items-center'>
+                                    <GoDash className='text-3xl' />
+                                    <p>Seaya Principal Adverse Impact indicators</p>
+                                </div>
+                            </Link>
+
                         </div>
                     </div>
 
@@ -105,33 +145,35 @@ const page = () => {
             </section>
 
             <section className='h-full'>
-                <div className='md:pl-14 md:pt-14 lg:pl-24 lg:pt-24'>
-                    <hr className='border mb-5 border-gray-400 w-11/12 mx-auto' />
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-10 ml-2 md:ml-0'>Selected Case Studies</h3>
+                <div className='md:p-14 lg:pl-24 lg:pt-24'>
+                    <div className='pt-8 pb-2'>
+                        <hr className='w-[94%] mx-auto border border-gray-400 md:w-11/12' />
+                    </div>
+                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-5 w-[94%] md:w-11/12 mx-auto'>Selected Case Studies</h3>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
 
                         {/* 1st */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
                             <figure>
                                 <Image src="/client_2.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <p className='text-base text-[#363A3A]'>Bringing societal impact to markets</p>
-                                <h2 className="card-title font-normal">Clarity AI</h2>
+                            <div className="w-[292px]">
+                                <p className='text-base t mt-7 mb-3ext-[#363A3A]'>Bringing societal impact to markets</p>
+                                <h2 className="card-titl mb-3e font-normal">Clarity AI</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
                         </div>
 
                         {/* 2nd */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
                             <figure>
                                 <Image src="/client_3.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <p className='text-base text-[#363A3A]'>Smart charging and energy
+                            <div className="w-[292px]">
+                                <p className='text-base t mt-7 mb-3ext-[#363A3A]'>Smart charging and energy
                                     management solutions</p>
-                                <h2 className="card-title font-normal">Wallbox</h2>
+                                mb-3                             <h2 className="card-title font-normal">Wallbox</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
                         </div>
