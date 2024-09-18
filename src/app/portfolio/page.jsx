@@ -4,21 +4,24 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
-            <section className='md:p-24 mt-20 md:mt-32 ml-2 md:ml-0'>
-                <h3 className='text-2xl md:text-4xl lg:text-6xl'>Portfolio</h3>
-                <p className='text-xl lg:text-3xl lg:w-2/4 my-2 lg:my-5 space-y-3'>We back outstanding and mission-driven founders of European and Latin American tech companies with global ambition.</p>
+        <div className='w-[96%] md:w-11/12'>
+            <section className='md:py-24 mt-20 md:mt-24 ml-2 md:ml-0'>
+                <div className='w-[96%] md:w-10/12 mx-auto'>
+                    <h3 className='text-3xl md:text-4xl lg:text-6xl'>Portfolio</h3>
+                    <p className='text-xl lg:text-3xl lg:w-2/4 my-2 lg:my-5 space-y-3 mt-10'>We back outstanding and mission-driven founders of European and Latin American tech companies with global ambition.</p>
+                </div>
 
             </section>
 
-            <section className='max-w-full '>
-
-                <hr className='border-gray-400 mb-10 w-full md:w-11/12 mx-auto' />
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 w-full md:w-11/12 p-2 lg:p-0">
+            <section className='w-[96%] md:w-11/12 mx-auto'>
+                <div className='pt-24 w-[94%] md:w-11/12 mx-auto'>
+                    <hr className='border-gray-400 mx-auto' />
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:w-11/12 mx-auto my-10">
                     {/* ............................................................................ */}
                     {/* 1st card */}
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -42,7 +45,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -67,7 +70,7 @@ const page = () => {
 
 
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -95,13 +98,15 @@ const page = () => {
 
 
 
-            <section className='max-w-full '>
+            <section className='w-[96%] md:w-11/12 mx-auto '>
 
-                <hr className='border-gray-400 mb-10 w-full md:w-11/12 mx-auto' />
+                <div className='w-[94%] md:w-11/12 mx-auto'>
+                    <hr className='border-gray-400 mx-auto' />
+                </div>
 
                 <div>
 
-                    <ul className='flex gap-5 justify-center text-[#9faaaa]'>
+                    <ul className='flex flex-wrap gap-5 justify-center text-[#9faaaa] my-10 w-full'>
                         <li className='hover:text-black font-bold'><Link href="/">All</Link></li>
                         <li className='hover:text-black font-bold'><Link href="/">Seaya Andromeda</Link></li>
                         <li className='hover:text-black font-bold'><Link href="/">Seaya Cathay LatamSeaya</Link></li>
@@ -114,7 +119,7 @@ const page = () => {
                     {/* ............................................................................ */}
                     {/* 1st card */}
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -138,7 +143,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -163,7 +168,7 @@ const page = () => {
 
 
                     <Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -185,7 +190,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -209,7 +214,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -234,7 +239,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -256,7 +261,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -280,7 +285,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -305,7 +310,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -327,7 +332,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -351,7 +356,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -376,7 +381,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -398,7 +403,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -422,7 +427,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -447,7 +452,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -469,7 +474,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -493,7 +498,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -518,7 +523,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -540,7 +545,7 @@ const page = () => {
 
                     {/* 1st card */}
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -564,7 +569,7 @@ const page = () => {
                     {/* 2nd card */}
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -589,7 +594,7 @@ const page = () => {
 
 
                     < Link href={`/portfolio/abc`}>
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-72 md:w-11/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group rounded-none">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
