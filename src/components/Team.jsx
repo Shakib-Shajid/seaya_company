@@ -17,14 +17,14 @@ import Image from 'next/image';
 const Team = () => {
 
     return (
-        <div className=' bg-[#8a8a8c] w-full mb-64 h-screen'>
-            <div className='w-full md:w-10/12 mx-auto'>
-                <div className='pt-20'>
+        <div className=' bg-[#8a8a8c] w-[96%] md:w-full mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto'>
+            <div className='w-[96%] md:w-10/12 mx-auto'>
+                <div className='pt-10 md:pt-20'>
                     <hr className='border-black' />
                 </div>
-                <h3 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full pt-10'>Our team</h3>
+                <h3 className='text-3xl md:text-5xl md:w-full pt-10'>Our team</h3>
                 <div className='w-full md:w-11/12 mx-auto text-white'>
-                    <p className='text-3xl py-20'>Multidisciplinary team, engaged and supportive</p>
+                    <p className='text-2xl md:text-3xl py-5 md:py-20'>Multidisciplinary team, engaged and supportive</p>
 
                     <Link href="/team" className="relative flex items-center group text-2xl">
                         {/* Static Text */}
@@ -50,7 +50,7 @@ const Team = () => {
                         el: '.custom-pagination', // Target the custom pagination element
                     }}
                     modules={[Pagination]}
-                    className="mySwiper md:w-11/12 my-20"
+                    className="mySwiper w-11/12 md:w-11/12 mt-20 mb-14"
 
                     breakpoints={{
                         // Mobile view (up to 768px)
@@ -72,8 +72,8 @@ const Team = () => {
                 >
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -85,8 +85,8 @@ const Team = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -98,48 +98,8 @@ const Team = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
-
-                                {/* Overlay with name and position, hidden by default */}
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <p className="text-white text-xl font-bold">John Doe</p>
-                                    <p className="text-white text-md">Software Engineer</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
-
-                                {/* Overlay with name and position, hidden by default */}
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <p className="text-white text-xl font-bold">John Doe</p>
-                                    <p className="text-white text-md">Software Engineer</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
-
-                                {/* Overlay with name and position, hidden by default */}
-                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <p className="text-white text-xl font-bold">John Doe</p>
-                                    <p className="text-white text-md">Software Engineer</p>
-                                </div>
-                            </div>
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -152,8 +112,8 @@ const Team = () => {
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -165,8 +125,8 @@ const Team = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -178,8 +138,48 @@ const Team = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/" target="_blank">
-                            <div className="relative group w-full h-80">
-                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-80" />
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
+
+                                {/* Overlay with name and position, hidden by default */}
+                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <p className="text-white text-xl font-bold">John Doe</p>
+                                    <p className="text-white text-md">Software Engineer</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/" target="_blank">
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_1.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
+
+                                {/* Overlay with name and position, hidden by default */}
+                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <p className="text-white text-xl font-bold">John Doe</p>
+                                    <p className="text-white text-md">Software Engineer</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/" target="_blank">
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_2.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
+
+                                {/* Overlay with name and position, hidden by default */}
+                                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    <p className="text-white text-xl font-bold">John Doe</p>
+                                    <p className="text-white text-md">Software Engineer</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/" target="_blank">
+                            <div className="relative group w-full h-72 md:h-80">
+                                <Image src="/group_3.jpg" width="300" height="300" alt="Team Member" className="w-full h-72 md:h-80" />
 
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
