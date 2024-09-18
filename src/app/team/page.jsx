@@ -19,9 +19,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -39,9 +39,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -59,9 +59,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -79,9 +79,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -99,9 +99,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -119,9 +119,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -139,9 +139,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -159,9 +159,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -179,9 +179,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -199,9 +199,9 @@ const page = () => {
                                 alt="Shoes"
                                 className='w-full' />
                         </figure>
-                        <div className="card-body">
+                        <div className="py-6">
                             <h2 className="text-2xl">Ana Rocha</h2>
-                            <p className='text-base'>Investor</p>
+                            <p className='text-base mb-5'>Investor</p>
                             <div className="card-actions justify-start border-t w-full">
                                 <button className="text-2xl my-4"><FaLinkedinIn /></button>
                             </div>
@@ -226,9 +226,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
@@ -246,9 +246,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
@@ -266,9 +266,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
@@ -286,9 +286,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
@@ -306,9 +306,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
@@ -326,9 +326,9 @@ const page = () => {
                                     alt="Shoes"
                                     className='w-full' />
                             </figure>
-                            <div className="card-body">
+                            <div className="py-6">
                                 <h2 className="text-2xl">Ana Rocha</h2>
-                                <p className='text-base'>Member of Seaya&apos;s Advisory Board</p>
+                                <p className='text-base mb-5'>Member of Seaya&apos;s Advisory Board</p>
                                 <div className="card-actions justify-start border-t w-full">
                                     <button className="text-2xl my-4"><FaLinkedinIn /></button>
                                 </div>
