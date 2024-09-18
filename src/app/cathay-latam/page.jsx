@@ -15,7 +15,7 @@ const page = () => {
 
                 <div className='absolute top-16 md:top-36 left-4 md:left-24'>
                     <Image src="/logo_2.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-28 md:w-36 lg:h-36 lg:w-52' />
-                    <p className='text-2xl md:text-3xl lg:text-5xl text-white lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Cathay Latam is a multi-sector fund for startups redefining industry and society across Latin America.</p>
+                    <p className='text-2xl md:text-3xl lg:text-5xl text-white w-72 md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Cathay Latam is a multi-sector fund for startups redefining industry and society across Latin America.</p>
                 </div>
             </section>
 
@@ -25,35 +25,35 @@ const page = () => {
                 <Image src="/hill.webp" width="300" height="300" alt="" className='w-full' />
             </section>
 
-            <section className='bg-[#D85D4A] text-white w-[92%] mx-auto md:mx-0 md:w-full pb-10'>
+            <section className='bg-[#D85D4A] text-white w-full mx-auto md:mx-0 pb-10'> 
                 <div className='p-1 md:p-24'>
-                    <hr className='border-white mb-10' />
-                    <div className='flex flex-col lg:flex-row gap-5 w-full'>
+                    <hr className='border-white mb-5 md:mb-10 w-[92%] md:w-full mx-auto mt-10 md:mt-0' />
+                    <div className='flex flex-col lg:flex-row gap-5 w-[92%] md:w-full mx-auto'>
                         <h3 className='text-xl lg:text-5xl font-bold w-2/6'>Details</h3>
 
-                        <div className='w-full'> {/* Set this container to full width */}
+                        <div className='w-full '> {/* Set this container to full width */}
                             <div className="overflow-x-auto">
                                 <table className="table w-full lg:w-2/3 text-lg lg:text-2xl"> {/* Set the table to full width */}
                                     <tbody>
                                         {/* row 1 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Stage</td>
-                                            <td className='p-1 lg:p-4'>Series A </td>
+                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>Series A </td>
                                         </tr>
                                         {/* row 2 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Initial ticket</td>
-                                            <td className='p-1 lg:p-4'>€2-8 million</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>€2-8 million</td>
                                         </tr>
                                         {/* row 3 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Focus</td>
-                                            <td className='p-1 lg:p-4'>Multi-sector</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>Multi-sector</td>
                                         </tr>
                                         {/* row 4 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Coverage</td>
-                                            <td className='p-1 lg:p-4'>Latin America</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>Latin America</td>
                                         </tr>
                                     </tbody>
                                 </table>

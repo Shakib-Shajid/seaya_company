@@ -15,8 +15,8 @@ const page = () => {
                     ></video>
 
                 <div className='absolute top-16 md:top-36 left-4 md:left-24'>
-                    <Image src="/logo_1.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-28 md:w-36 lg:h-40 lg:w-52'/>
-                    <p className='text-2xl md:text-3xl lg:text-5xl text-white lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Ventures is a technology-first fund investing in outstanding and mission driven founders of European companies.</p>
+                    <Image src="/logo_1.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-32 md:w-48 lg:h-40 lg:w-52'/>
+                    <p className='text-2xl md:text-3xl lg:text-5xl text-white w-72 md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Ventures is a technology-first fund investing in outstanding and mission driven founders of European companies.</p>
                 </div>
             </section>
 
@@ -25,40 +25,40 @@ const page = () => {
                 <Image src="/water.webp" width="300" height="300" alt="" className='w-full' />
             </section>
 
-            <section className='bg-[#5CA5D8] text-white w-[92%] mx-auto md:mx-0 md:w-full pb-10'>
+            <section className='bg-[#5CA5D8] text-white w-full mx-auto md:mx-0 pb-10'>
                 <div className='p-1 md:p-24'>
-                    <hr className='border-white mb-10' />
-                    <div className='flex flex-col lg:flex-row gap-5 w-full'>
+                    <hr className='border-white mb-5 md:mb-10 w-[92%] md:w-full mx-auto mt-10 md:mt-0' />
+                    <div className='flex flex-col lg:flex-row gap-5  w-[92%] md:w-full mx-auto'>
                         <h3 className='text-xl lg:text-5xl font-bold w-2/6'>Details</h3>
 
-                        <div className='w-full'> {/* Set this container to full width */}
+                        <div className='w-full relative lg:-mt-5'> {/* Set this container to full width */}
                             <div className="overflow-x-auto">
-                                <table className="table w-full lg:w-2/3 text-lg lg:text-2xl"> {/* Set the table to full width */}
+                                <table className="table w-full lg:w-2/3 text-base md:text-xl lg:text-2xl"> {/* Set the table to full width */}
                                     <tbody>
                                         {/* row 1 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Stage</td>
-                                            <td className='p-1 lg:p-4'>Pre-series A / Series A / Series B</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>Pre-series A / Series A <br className='visible md:hidden'/>/ Series B</td>
                                         </tr>
                                         {/* row 2 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Initial ticket</td>
-                                            <td className='p-1 lg:p-4'>€2-7 million</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>€2-7 million</td>
                                         </tr>
                                         {/* row 3 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Fund size</td>
-                                            <td className='p-1 lg:p-4'>€165 million</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>€165 million</td>
                                         </tr>
                                         {/* row 4 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Focus</td>
-                                            <td className='p-1 lg:p-4'>Disruptive technology</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>Disruptive technology</td>
                                         </tr>
                                         {/* row 5 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Coverage</td>
-                                            <td className='p-1 lg:p-4'>Europe</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>Europe</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -71,7 +71,7 @@ const page = () => {
             <section className='bg-[#EBEBEB]'>
                 <div className='md:p-10 lg:p-24 text-center'>
                     <h3 className='text-2xl md:text-3xl p-5 md:p-10'>Seaya Ventures III FCR, FCRE</h3>
-                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf" target="_blank">Legal Documents: KIID PRIIPS</Link></p>
+                    <p className='text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf" target="_blank">Legal Documents: KIID PRIIPS</Link></p>
                 </div>
 
             </section>
