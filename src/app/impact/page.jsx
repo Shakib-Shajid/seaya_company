@@ -159,8 +159,8 @@ const page = () => {
                                 <Image src="/client_2.png" width="300" height="300" alt="" />
                             </figure>
                             <div className="w-[292px]">
-                                <p className='text-base t mt-7 mb-3ext-[#363A3A]'>Bringing societal impact to markets</p>
-                                <h2 className="card-titl mb-3e font-normal">Clarity AI</h2>
+                                <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Bringing societal impact to markets and energy</p>
+                                <h2 className="card-title font-normal">Clarity AI</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
                         </div>
@@ -171,20 +171,20 @@ const page = () => {
                                 <Image src="/client_3.png" width="300" height="300" alt="" />
                             </figure>
                             <div className="w-[292px]">
-                                <p className='text-base t mt-7 mb-3ext-[#363A3A]'>Smart charging and energy
+                                <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Smart charging and energy
                                     management solutions</p>
-                                mb-3                             <h2 className="card-title font-normal">Wallbox</h2>
+                                <h2 className="card-title font-normal">Wallbox</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
                         </div>
 
                         {/* 3rd */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
                             <figure>
                                 <Image src="/client_4.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <p className='text-base text-[#363A3A]'>Enabling Global <br />
+                            <div className="w-[292px]">
+                                <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Enabling Global <br />
                                     Sustainable Farming</p>
                                 <h2 className="card-title font-normal">Biome Makers</h2>
                                 <p className='text-xl'>&rarr;</p>
@@ -192,12 +192,12 @@ const page = () => {
                         </div>
 
                         {/* 4th */}
-                        <div className="card card-compact bg-transparent w-80">
+                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
                             <figure>
                                 <Image src="/client_1.png" width="300" height="300" alt="" />
                             </figure>
-                            <div className="card-body">
-                                <p className='text-base text-[#363A3A]'>Transform Electronic Medical Records into deep Real-World Evidence</p>
+                            <div className="w-[292px]">
+                                <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Transform Electronic Medical Records into deep Real-World Evidence</p>
                                 <h2 className="card-title font-normal">Savana</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
