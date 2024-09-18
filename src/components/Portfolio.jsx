@@ -1,11 +1,10 @@
-"use client"
+
 import Image from "next/image";
 import Link from "next/link";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
-import { useState } from 'react';
 
 const Portfolio = () => {
-    const [hovered, setHovered] = useState(false);
     return (
         <div className='w-full md:w-11/12 mx-auto'>
             <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Portfolio</h2>
@@ -13,7 +12,7 @@ const Portfolio = () => {
 
 
                 {/* 1st card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -33,17 +32,17 @@ const Portfolio = () => {
                     </div>
 
                     <hr className="my-5 border-2" />
-                    <div className="p-4 flex flex-col">
+                    <div className="p-0 md:p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Glovo</h2>
                         <p className="my-2">Glovo is an on-demand delivery marketplace present in Europe and Latam that allows users to get anything they need in a short period of time.</p>
                         <div className="flex items-center mt-auto">
-                            <button><Link href={`/portfolio/abc`}>&minus; Learn More</Link></button>
+                            <button><Link href={`/portfolio/abc`}><IoIosArrowRoundForward className="text-3xl inline-block" />Learn More</Link></button>
                         </div>
                     </div>
                 </div>
 
                 {/* 2nd card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -63,18 +62,18 @@ const Portfolio = () => {
                     </div>
 
                     <hr className="my-5 border-2" />
-                    <div className="p-4 flex flex-col">
+                    <div className="p-0 md:p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Wallbox</h2>
                         <p className="my-2">Wallbox is a leading designer, manufacturer, and distributor of innovative intelligent charging solutions for plug-in electric and hybrid cars.</p>
                         <div className="flex items-center mt-auto">
-                            <button><Link href={`/portfolio/abc`}>&minus; Learn More</Link></button>
+                            <button><Link href={`/portfolio/abc`}><IoIosArrowRoundForward className="text-3xl inline-block" />Learn More</Link></button>
                         </div>
                     </div>
                 </div>
 
 
                 {/* 3rd card */}
-                <div className="card w-72 md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group">
+                <div className="card w-[298px] md:w-10/12 lg:w-full flex flex-col mx-auto lg:mx-0 relative overflow-hidden group rounded-none">
                     {/* Container for the image */}
                     <div className="relative w-full h-72">
                         <Link href={`/portfolio/abc`}>
@@ -94,18 +93,18 @@ const Portfolio = () => {
                     </div>
 
                     <hr className="my-5 border-2" />
-                    <div className="p-4 flex flex-col">
+                    <div className="p-0 md:p-4 flex flex-col">
                         <h2 className="card-title text-xl font-bold">Cabify</h2>
                         <p className="my-2">Transforming mobility in Iberia and Latam. Cabify is the leading ride-hailing and mobility platform in Iberia and Latam.</p>
                         <div className="flex items-center mt-auto">
-                            <button><Link href={`/portfolio/abc`}>&minus; Learn More</Link></button>
+                            <button><Link href={`/portfolio/abc`}><IoIosArrowRoundForward className="text-3xl inline-block" />Learn More</Link></button>
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div className="my-10 text-lg pl-7 md:pl-0 w-full">
+            <div className="my-10 text-lg pl-4 md:pl-0 w-full">
                 <p className="md:w-10/12 mx-auto lg:w-3/4">
                     <Link href="/portfolio" className="relative flex items-center group">
                         {/* Static Text */}

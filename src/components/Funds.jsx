@@ -6,14 +6,14 @@ const Funds = () => {
     return (
         <div className='w-full md:w-11/12 mx-auto'>
             <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Funds</h2>
-            <p className='text-xl lg:text-5xl font-normal w-[90%] md:w-10/12 lg:w-3/4 mx-auto'>
+            <p className='text-xl lg:text-5xl font-normal w-[92%] md:w-10/12 lg:w-3/4 mx-auto'>
                 We accelerate growth by working with founders to enhance their strategic vision, putting an international platform at their disposal:
             </p>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 my-10 gap-5 lg:w-3/4 mx-auto'>
                 {/* 1st card */}
                 <Link href="/ventures">
-                    <div className="card w-72 md:w-10/12 lg:w-full h-[26rem] shadow-xl relative flex flex-col justify-between mx-auto lg:mx-0 ">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0 ">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat " style={{
                             backgroundImage: "url('/SEA_Apartado_03.webp')"
@@ -43,7 +43,7 @@ const Funds = () => {
                 </Link>
                 {/* 2nd card */}
                 <Link href="/andromeda">
-                    <div className="card w-72 md:w-10/12 lg:w-full h-[26rem] shadow-xl relative flex flex-col justify-between mx-auto lg:mx-0">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
                             backgroundImage: "url('/SEA_Apartado_02.webp')"
@@ -74,7 +74,7 @@ const Funds = () => {
 
                 {/* 3rd card */}
                 <Link href="/cathay-latam">
-                    <div className="card w-72 md:w-10/12 lg:w-full h-[26rem] shadow-xl relative flex flex-col justify-between  mx-auto lg:mx-0">
+                    <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between  mx-auto lg:mx-0">
                         {/* Background image with opacity */}
                         <div className="absolute inset-0 bg-cover bg-no-repeat" style={{
                             backgroundImage: "url('/SEA_Apartado_01.webp')"

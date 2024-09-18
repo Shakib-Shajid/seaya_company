@@ -8,7 +8,7 @@ const Banner = () => {
                 loop
                 muted
                 autoPlay
-                className='w-full h-full object-cover'
+                className='w-[96%] md:w-full h-full object-cover mx-auto'
             ></video>
            
         </div>

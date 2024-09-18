@@ -13,14 +13,15 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
-import { useState } from 'react';
 
 const Team = () => {
-    const [hovered, setHovered] = useState(false);
 
     return (
-        <div className=' bg-[#8a8a8c] w-full mb-5'>
+        <div className=' bg-[#8a8a8c] w-full mb-64 h-screen'>
             <div className='w-full md:w-10/12 mx-auto'>
+                <div className='pt-20'>
+                    <hr className='border-black' />
+                </div>
                 <h3 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full pt-10'>Our team</h3>
                 <div className='w-full md:w-11/12 mx-auto text-white'>
                     <p className='text-3xl py-20'>Multidisciplinary team, engaged and supportive</p>
@@ -49,7 +50,7 @@ const Team = () => {
                         el: '.custom-pagination', // Target the custom pagination element
                     }}
                     modules={[Pagination]}
-                    className="mySwiper md:w-11/12 my-16"
+                    className="mySwiper md:w-11/12 my-20"
 
                     breakpoints={{
                         // Mobile view (up to 768px)
