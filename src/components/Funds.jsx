@@ -5,12 +5,12 @@ import React from 'react';
 const Funds = () => {
     return (
         <div className='w-full md:w-11/12 mx-auto'>
-            <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-3'>Funds</h2>
+            <h2 className='text-3xl md:text-5xl w-[92%] mx-auto md:w-full font-bold my-3'>Funds</h2>
             <p className='text-xl lg:text-5xl font-normal w-[92%] md:w-10/12 lg:w-3/4 mx-auto'>
                 We accelerate growth by working with founders to enhance their strategic vision, putting an international platform at their disposal:
             </p>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 my-10 gap-5 lg:w-3/4 mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 my-10 gap-5 w-full lg:w-3/4 mx-auto'>
                 {/* 1st card */}
                 <Link href="/ventures">
                     <div className="card w-[298px] md:w-10/12 lg:w-full h-[26rem] relative flex flex-col justify-between mx-auto lg:mx-0 ">
