@@ -6,22 +6,22 @@ import { GoDash } from "react-icons/go";
 
 const page = () => {
     return (
-        <div>
-            <section className='md:p-24 mt-20 md:mt-0 w-[94%] md:w-full mx-auto'>
+        <div className=''>
+            <section className='md:p-24 mt-20 mb-20 md:mb-5 md:mt-0 w-[80%] mx-auto md:w-full'>
                 <h3 className='text-3xl md:text-4xl lg:text-6xl'>Our sustainability <br className='visible md:hidden lg:block' /> commitment</h3>
-                <p className='text-xl lg:w-2/4 my-2 space-y-3'>Since we started investing in 2013, we have backed founders and tech companies that have a mission that goes beyond financials. On top of making the world a better place, these companies are more resilient, attract better talent, and provide a better financial return for investors.</p>
+                <p className='text-2xl lg:w-2/4 my-2 space-y-3'>Since we started investing in 2013, we have backed founders and tech companies that have a mission that goes beyond financials. On top of making the world a better place, these companies are more resilient, attract better talent, and provide a better financial return for investors.</p>
                 <div className='space-y-4 mt-3'>
-                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'><GoDash /></span> Seaya 2023 ESG & Impact Report</p></Link>
-                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1'><span className='text-xl'><GoDash /></span> Seaya 2022 ESG & Impact Report</p></Link>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1 my-4'><span className='text-xl'><GoDash /></span> Seaya 2023 ESG & Impact Report</p></Link>
+                    <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1 my-4'><span className='text-xl'><GoDash /></span> Seaya 2022 ESG & Impact Report</p></Link>
                 </div>
             </section>
 
-            <section className='bg-[#97D4CB] w-[94%] md:w-full mx-auto'>
-                <div className='md:px-24 md:py-16 w-[98%] md:w-full mx-auto'>
+            <section className='bg-[#97D4CB]'>
+                <div className='md:px-24 md:py-16 w-[80%] mx-auto md:w-full'>
                     <div className='pt-8 pb-2'>
-                        <hr className='border border-gray-400 md:w-11/12' />
+                        <hr className='border border-gray-400 w-full' />
                     </div>
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl'>Seaya Andromeda</h3>
+                    <h3 className='mt-5 mb-10 text-2xl md:text-4xl lg:text-6xl'>Seaya Andromeda</h3>
                     <p className='text-xl lg:w-2/4 pr-0 md:pr-7 lg:pr-0 my-8 space-y-3'>Seaya’s sustainability commitment has recently entered a new chapter with the launch of Seaya Andromeda, an Article 9 €300M venture capital fund that will promote a sustainable and healthy society by reducing waste and pollution, through investments in top European tech-driven companies focusing on GreenTech, Circular Economy and AgriTech & Sustainable Food Value Chain
                         Find out more here</p>
                     <div className='flex items-center'>
@@ -32,10 +32,10 @@ const page = () => {
             </section>
 
 
-            <section className='bg-[#97D4CB] w-[94%] md:w-full mx-auto'>
-                <div className='md:px-24 pb-16 w-[98%] md:w-full mx-auto'>
-                    <div className='pt-8 pb-2'>
-                        <hr className='border border-gray-400 md:w-11/12' />
+            <section className='bg-[#97D4CB]'>
+                <div className='md:px-24 pb-16 w-[80%] mx-auto md:w-full'>
+                    <div className='pt-8 pb-2 w-full'>
+                        <hr className='border border-gray-400' />
                     </div>
                     <h3 className='mt-5 mb-10 text-2xl md:text-4xl lg:text-6xl'>Sustainability Strategy</h3>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
