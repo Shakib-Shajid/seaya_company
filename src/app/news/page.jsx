@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const page = () => {
     return (
-        <div>
+        <div className="w-[80%] mx-auto md:w-full">
             <section className='md:p-24 mt-20 md:mt-0 lg:mt-20 ml-2 md:ml-0'>
                 <h3 className='text-3xl md:text-4xl lg:text-6xl'>Newsroom</h3>
             </section>
             <section className='md:pt-0 md:p-24 mt-20 md:mt-0 ml-2 md:ml-0'>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {/* 1st */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_1.png"
@@ -26,7 +26,7 @@ const page = () => {
                     </div>
 
                     {/* 2nd */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_2.png"
@@ -43,7 +43,7 @@ const page = () => {
                     </div>
                     
                     {/* 3rd */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_3.png"
@@ -60,7 +60,7 @@ const page = () => {
                     </div>
 
                     {/* 4th */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_1.png"
@@ -77,7 +77,7 @@ const page = () => {
                     </div>
 
                     {/* 5th */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_2.png"
@@ -94,7 +94,7 @@ const page = () => {
                     </div>
                     
                     {/* 6th */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_3.png"
@@ -111,7 +111,7 @@ const page = () => {
                     </div>
 
                     {/* 7th */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_1.png"
@@ -128,7 +128,7 @@ const page = () => {
                     </div>
 
                     {/* 8th */}
-                    <div className="card bg-base-100 w-full border">
+                    <div className="card bg-base-100 w-full border rounded-none">
                         <figure>
                             <Image
                                 src="/news_2.png"

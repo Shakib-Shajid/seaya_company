@@ -38,59 +38,56 @@ const page = () => {
                         <hr className='border border-gray-400' />
                     </div>
                     <h3 className='mt-5 mb-10 text-2xl md:text-4xl lg:text-6xl'>Sustainability Strategy</h3>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
 
                         {/* 1st */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
+                        <div className="w-full">
                             <figure>
-                                <Image src="/impact_1.png" width="300" height="300" alt="" />
+                                <Image src="/impact_1.png" width="300" height="300" alt="" className='w-full' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div className="">
                                 <h2 className="card-title mt-7 mb-3">Founders</h2>
-                                <p className='text-base mb-3'>We look for mission driven founders and teams that share our values, with high standards and looking both for prosperity and purpose.</p>
+                                <p className='text-base'>We look for mission driven founders and teams that share our values, with high standards and looking both for prosperity and purpose.</p>
                             </div>
                         </div>
-
                         {/* 2nd */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
+                        <div className="w-full">
                             <figure>
-                                <Image src="/impact_2.png" width="300" height="300" alt="" />
+                                <Image src="/impact_2.png" width="300" height="300" alt="" className='w-full' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div className="">
                                 <h2 className="card-title mt-7 mb-3">Trends & Sectors</h2>
-                                <p className='text-base mb-3'>Solving real problems in sectors with high social and environmental impact like: Mobility, GreenTech, Healthcare, Circular Economy, AgriTech & Sustainable Food Value Chain, Decarbonization, Fintech, Proptech, Industry Tech and Content, among others.</p>
+                                <p className='text-base'>Solving real problems in sectors with high social and environmental impact like: Mobility, GreenTech, Healthcare, Circular Economy, AgriTech & Sustainable Food Value Chain, Decarbonization, Fintech, Proptech, Industry Tech and Content, among others.</p>
                             </div>
                         </div>
-
                         {/* 3rd */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
+                        <div className="w-full">
                             <figure>
-                                <Image src="/impact_3.png" width="300" height="300" alt="" />
+                                <Image src="/impact_3.png" width="300" height="300" alt="" className='w-full' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div className="">
                                 <h2 className="card-title mt-7 mb-3">Our Process</h2>
-                                <p className='text-base mb-3'>Our investment process follows ESG best practices which allow us to maximize both financial returns and social and environmental impacts.</p>
+                                <p className='text-base'>Our investment process follows ESG best practices which allow us to maximize both financial returns and social and environmental impacts.</p>
                             </div>
                         </div>
-
                         {/* 4th */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto rounded-none">
+                        <div className="w-full">
                             <figure>
-                                <Image src="/impact_1.png" width="300" height="300" alt="" />
+                                <Image src="/impact_1.png" width="300" height="300" alt="" className='w-full' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div className="">
                                 <h2 className="card-title mt-7 mb-3">A Measurable Impact</h2>
-                                <p className='text-base mb-3'>In addition to top quartile returns, we have measurable outcomes in social inclusion, job creation and reduction of environmental footprint.</p>
+                                <p className='text-base'>In addition to top quartile returns, we have measurable outcomes in social inclusion, job creation and reduction of environmental footprint.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='bg-[#363A3A] w-[94%] md:w-full mx-auto'>
-                <div className='md:px-24 w-[98%] md:w-full mx-auto'>
-                    <div className='pt-16 pb-2'>
-                        <hr className='border border-gray-400 md:w-11/12' />
+            <section className='bg-[#363A3A]'>
+                <div className='md:px-24 w-[80%] mx-auto md:w-full'>
+                    <div className='pt-8 pb-2 w-full'>
+                        <hr className='border border-gray-400' />
                     </div>
                     <h3 className='text-2xl md:text-4xl lg:text-6xl my-3 text-white'>Responsible Investment</h3>
                     <div className='flex flex-col lg:flex-row gap-4 text-white'>
@@ -145,20 +142,21 @@ const page = () => {
             </section>
 
             <section className='h-full'>
-                <div className='md:p-14 lg:pl-24 lg:pt-24'>
-                    <div className='pt-8 pb-2'>
-                        <hr className='w-[94%] mx-auto border border-gray-400 md:w-11/12' />
+            <div className='md:px-24 w-[80%] mx-auto md:w-full'>
+                    <div className='pt-16 pb-2 w-full'>
+                        <hr className='border border-gray-400' />
                     </div>
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-5 w-[94%] md:w-11/12 mx-auto'>Selected Case Studies</h3>
+                    <h3 className='text-2xl md:text-4xl lg:text-6xl my-7'>Selected Case Studies</h3>
 
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
 
                         {/* 1st */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
+
+                        <div className="w-full mb-3">
                             <figure>
-                                <Image src="/client_2.png" width="300" height="300" alt="" />
+                                <Image src="/client_2.png" width="300" height="300" alt="" className='w-full md:w-80' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div>
                                 <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Bringing societal impact to markets and energy</p>
                                 <h2 className="card-title font-normal">Clarity AI</h2>
                                 <p className='text-xl'>&rarr;</p>
@@ -166,11 +164,11 @@ const page = () => {
                         </div>
 
                         {/* 2nd */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
+                        <div className="w-full mb-3">
                             <figure>
-                                <Image src="/client_3.png" width="300" height="300" alt="" />
+                                <Image src="/client_3.png" width="300" height="300" alt="" className='w-full md:w-80' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div>
                                 <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Smart charging and energy
                                     management solutions</p>
                                 <h2 className="card-title font-normal">Wallbox</h2>
@@ -178,12 +176,14 @@ const page = () => {
                             </div>
                         </div>
 
+
                         {/* 3rd */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
+
+                        <div className="w-full mb-3">
                             <figure>
-                                <Image src="/client_4.png" width="300" height="300" alt="" />
+                                <Image src="/client_2.png" width="300" height="300" alt="" className='w-full md:w-80' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div>
                                 <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Enabling Global <br />
                                     Sustainable Farming</p>
                                 <h2 className="card-title font-normal">Biome Makers</h2>
@@ -192,16 +192,19 @@ const page = () => {
                         </div>
 
                         {/* 4th */}
-                        <div className="card card-compact bg-transparent w-[292px] mx-auto">
+
+                        <div className="w-full mb-3">
                             <figure>
-                                <Image src="/client_1.png" width="300" height="300" alt="" />
+                                <Image src="/client_3.png" width="300" height="300" alt="" className='w-full md:w-80' />
                             </figure>
-                            <div className="w-[292px]">
+                            <div>
                                 <p className='text-base t mt-7 mb-3 text-[#363A3A]'>Transform Electronic Medical Records into deep Real-World Evidence</p>
                                 <h2 className="card-title font-normal">Savana</h2>
                                 <p className='text-xl'>&rarr;</p>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </section>

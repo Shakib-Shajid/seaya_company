@@ -3,17 +3,17 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className='w-[80%] mx-auto md:w-full'>
             <section className='md:p-24 mt-20 md:mt-16 p-2 flex items-center lg:gap-10 w-full'>
                 <div className='w-full lg:w-[50%] space-y-3 '>
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl'>Privacy policy</h3>
+                    <h3 className='text-3xl md:text-4xl lg:text-6xl'>Privacy policy</h3>
                     <p className='text-2xl my-2 space-y-3'>Seaya Capital Gestion SGEIC S.A., in application of current legislation on personal data protection, informs that the personal data collected through the forms on the website: www.seayaventures.com, are included in the specific automated files of users of Seaya Capital Gestion SGEIC S.A. services.</p>
                 </div>
                 <Image src="/legal.png" width="300" height="300" alt="" className='w-1/2 hidden lg:grid' />
             </section>
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-10 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676] flex justify-center ml-2 md:ml-0'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-10 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676] flex justify-center '>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto '>
                     <p>The purpose of the collection and automated processing of personal data is to maintain the commercial relationship and the performance of information, training, advisory and other activities of Seaya Capital Gestion SGEIC S.A. </p> <br />
 
@@ -34,8 +34,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]   mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'> Who is Responsible for the processing of your data?</h3>
                     <ul className='space-y-3 list-disc ml-7'>
@@ -47,8 +47,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]   mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'> Purpose of the processing of personal data:</h3>
                     <h3 className='text-xl font-bold'> For what purposes will we process your personal data?</h3>
@@ -68,8 +68,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]   mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'> Legitimation</h3>
                     <p> The processing of your data is carried out on the following legal bases that legitimise it:</p>
@@ -82,8 +82,8 @@ const page = () => {
                 </div>
             </section>
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676] mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'> Target group</h3>
                     <p> The data will not be communicated to any third party outside Seaya Capital Gestion SGEIC S.A., unless legally obliged to do so.</p>
@@ -91,8 +91,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676] mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Data collected by users of the services</h3>
                     <p> In cases where the user includes files with personal data in the shared hosting servers, Seaya Capital Gestion SGEIC S.A. is not responsible for the user’s failure to comply with the RGPD.</p>
@@ -100,8 +100,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]  mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Intellectual property rights www.seaya.vc</h3>
                     <p>Seaya Capital Gestion SGEIC S.A. is the owner of all copyrights, intellectual and industrial property rights, know-how and any other rights related to the contents of the website www.seayaventures.com and the services offered therein, as well as the programmes necessary for its implementation and related information.</p> <br />
@@ -110,8 +110,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]  mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Software Intellectual Property</h3>
                     <p>The user must respect third party software made available by Seaya Capital Gestion SGEIC S.A., even if it is free and/or publicly available.</p> <br />
@@ -123,8 +123,8 @@ const page = () => {
                 </div>
             </section>
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]  mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Intellectual property of hosted content</h3>
                     <p>Any use contrary to intellectual property legislation of the services provided by Seaya Capital Gestion SGEIC S.A. and, in particular, of:</p> <br />
@@ -142,8 +142,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]  mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Intellectual property of hosted content</h3>
                     <p>Any use contrary to intellectual property legislation of the services provided by Seaya Capital Gestion SGEIC S.A. and, in particular, of:</p> <br />
@@ -160,8 +160,8 @@ const page = () => {
                 </div>
             </section>
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]   mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Protection of hosted information</h3>
                     <p>Seaya Capital Gestion SGEIC S.A. makes backup copies of the contents hosted on its servers, however it is not responsible for the loss or accidental deletion of data by users. Likewise, it does not guarantee the total replacement of data deleted by users, as said data may have been deleted and/or modified during the period of time that has elapsed since the last backup.</p> <br />
@@ -171,8 +171,8 @@ const page = () => {
             </section>
 
 
-            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 max-w-[306px] md:max-w-xl lg:max-w-[1350px] mx-auto mb-10' />
-            <section className='text-[#727676]  ml-2 md:ml-0 mb-20'>
+            <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
+            <section className='text-[#727676]   mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'>Commercial communications</h3>
                     <p>In application of the LSSI. Seaya Capital Gestion SGEIC S.A. will not send advertising or promotional communications by e-mail or any other equivalent means of electronic communication that have not been previously requested or expressly authorised by the recipients thereof.</p> <br />

@@ -3,10 +3,10 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className='w-[80%] mx-auto md:w-full'>
             <section className='md:p-24 mt-20 md:mt-16 p-2 flex lg:gap-10 w-full'>
                 <div className='w-full lg:w-[50%] space-y-3 '>
-                    <h3 className='text-2xl md:text-4xl lg:text-6xl'>Legal Notice</h3>
+                    <h3 className='text-3xl md:text-4xl lg:text-6xl'>Legal Notice</h3>
                     <p className='text-2xl my-2 space-y-3'>In compliance with the duty of information contained in article 10 of Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSICE), the owner of the website informs you of the following:</p>
 
                     <p className='text-xl text-[#727676]'>&minus; Company name: Seaya SGEIC S.A.</p>

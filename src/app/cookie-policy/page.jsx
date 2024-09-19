@@ -4,7 +4,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className='w-[80%] mx-auto md:w-full'>
             <section className='md:p-24 mt-20 md:mt-16 p-2 flex items-center lg:gap-10 w-full'>
                 <div className='w-full lg:w-[50%] space-y-3 '>
                     <h3 className='text-2xl md:text-4xl lg:text-6xl'>Cookie policy</h3>

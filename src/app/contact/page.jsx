@@ -4,12 +4,12 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div>
+        <div className='w-[80%] mx-auto md:w-full'>
             <section className='md:p-16 mt-20 my-20 md:my-0 md:mt-10 lg:mt-24 ml-2 md:ml-8'>
                 <h3 className='text-3xl md:text-4xl lg:text-6xl'>Contact</h3>
             </section>
 
-            <section className=''>
+            <section>
                 <div className='md:pl-24 lg:pt-16 ml-2 md:ml-0'>
                     <hr className='border mb-5 border-gray-400 md:w-11/12' />
                     <div className='flex gap-3 flex-col lg:flex-row md:w-11/12 my-10 md:my-5 lg:my-20'>
