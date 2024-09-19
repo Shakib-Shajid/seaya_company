@@ -15,19 +15,21 @@ const page = () => {
                 ></video>
 
                 <div className='absolute top-16 md:top-36 left-4 md:left-24'>
-                    <Image src="/logo_3.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-28 md:w-36 lg:h-36 lg:w-52' />
-                    <p className='text-2xl md:text-3xl lg:text-5xl text-white w-72 md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Andromeda is a ClimateTech fund addressing the global climate challenges through technology.</p>
+                    <div className='w-[80%] mx-auto md:w-full'>
+                        <Image src="/logo_3.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-28 md:w-36 lg:h-36 lg:w-52' />
+                    </div>
+                    <p className='w-[80%] mx-auto text-2xl md:text-3xl lg:text-5xl text-white md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Andromeda is a ClimateTech fund addressing the global climate challenges through technology.</p>
                 </div>
             </section>
 
-            <section className='p-4 md:p-24'>
+            <section className='p-4 md:p-24 w-[80%] mx-auto md:w-full'>
                 <p className='text-2xl lg:w-2/3 mb-5 lg:mb-20'>The climate crisis is one of the greatest challenges we have ever faced, but it is also an opportunity to reshape the world we want to live in. Seaya Andromeda is an Article 9 sustainability-focused fund on a mission to address global sustainability challenges and deliver profits with purpose through investments in technology-driven companies with measurable sustainability impact.</p>
                 <Image src="/forest.webp" width="300" height="300" alt="" className='w-full' />
             </section>
 
             <section className='bg-[#25A897] text-white w-full mx-auto md:mx-0 pb-10'>
-                <div className='p-1 md:p-24'>
-                <hr className='border-white mb-5 md:mb-10 w-[92%] md:w-full mx-auto mt-10 md:mt-0' />
+                <div className='p-1 md:p-24 w-[80%] mx-auto md:w-full'>
+                    <hr className='border-white mb-5 md:mb-10 w-[92%] md:w-full mx-auto mt-10 md:mt-0' />
                     <div className='flex flex-col lg:flex-row gap-5 w-[92%] md:w-full mx-auto'>
                         <h3 className='text-xl lg:text-5xl font-bold w-2/6'>Details</h3>
 
@@ -38,7 +40,7 @@ const page = () => {
                                         {/* row 1 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4 lg:w-1/3'>Stage</td>
-                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>Series A / Series B / <br className='visible md:hidden'/> Series C+</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-44 p-1 lg:p-4'>Series A / Series B / <br className='visible md:hidden' /> Series C+</td>
                                         </tr>
                                         {/* row 2 */}
                                         <tr className='border-white'>
@@ -69,14 +71,14 @@ const page = () => {
             </section>
 
             <section>
-                <div className='w-full md:w-11/12 mx-auto'>
+                <div className='w-[80%] mx-auto md:w-full'>
 
-                    <hr className=" border ml-3 md:ml-0 md:w-full mt-20" />
-                    <h2 className='text-3xl md:text-5xl ml-3 md:ml-5 lg:ml-0 md:w-full font-bold my-5'>Portfolio</h2>
+                    <hr className="border md:w-full mt-20" />
+                    <h2 className='text-3xl md:text-5xl w-full font-bold my-5'>Portfolio</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 ">
                         {/* ............................................................................ */}
                         {/* 1st card */}
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -98,7 +100,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -121,7 +123,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -143,7 +145,7 @@ const page = () => {
                         {/* 4th card */}
 
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -165,7 +167,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -187,7 +189,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -212,17 +214,17 @@ const page = () => {
 
 
             <section>
-                <div className='w-full md:w-11/12 mx-auto p-2 lg:p-0'>
+                <div className='w-[80%] mx-auto md:w-full'>
 
-                    <hr className=" border ml-3 md:ml-0 md:w-full mt-20" />
-                    <h2 className='text-3xl md:text-5xl ml-3 md:ml-0 md:w-full font-bold my-5'>Climate track record</h2>
+                    <hr className=" border md:w-full mt-20" />
+                    <h2 className='text-3xl md:text-5xl md:w-full font-bold my-5'>Climate track record</h2>
 
                     <p className='text-xl lg:w-2/3 mb-5 lg:mb-20'>Over the past decade, we invested in Climate Tech companies driving sustainability solutions and have seen the impact of technology in addressing the world&apos;s most pressing climate challenges. <br /><br />
-                    The launch of Seaya Andromeda is a natural progression of Seaya&apos;s continued commitment to sustainability, and is built on our experience as a VC platform. With Seaya Andromeda, we are doubling down on our belief that profit and purpose can and should go hand in hand.</p>
+                        The launch of Seaya Andromeda is a natural progression of Seaya&apos;s continued commitment to sustainability, and is built on our experience as a VC platform. With Seaya Andromeda, we are doubling down on our belief that profit and purpose can and should go hand in hand.</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 ">
                         {/* ............................................................................ */}
                         {/* 1st card */}
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -244,7 +246,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -267,7 +269,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -289,7 +291,7 @@ const page = () => {
                         {/* 4th card */}
 
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -311,7 +313,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -333,7 +335,7 @@ const page = () => {
 
                         {/* 3rd card */}
 
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -353,7 +355,7 @@ const page = () => {
                         </div>
 
                         {/* 4th card */}
-                        <div className="card w-72 md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image

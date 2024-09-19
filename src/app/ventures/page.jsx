@@ -6,17 +6,19 @@ const page = () => {
     return (
         <div>
             <section className='relative'>
-                    <video
-                        src="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/10/Seaya_Ventures_NewVideo2_low.mp4"
-                        loop
-                        muted
-                        autoPlay
-                        className='w-full h-[500px] lg:h-screen object-cover'
-                    ></video>
+                <video
+                    src="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/10/Seaya_Ventures_NewVideo2_low.mp4"
+                    loop
+                    muted
+                    autoPlay
+                    className='w-full h-[500px] lg:h-screen object-cover'
+                ></video>
 
-                <div className='absolute top-16 md:top-36 left-4 md:left-24'>
-                    <Image src="/logo_1.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-32 md:w-48 lg:h-40 lg:w-52'/>
-                    <p className='text-2xl md:text-3xl lg:text-5xl text-white w-72 md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Ventures is a technology-first fund investing in outstanding and mission driven founders of European companies.</p>
+                <div className='absolute top-16 md:top-36 left-4 md:left-24 '>
+                    <div className='w-[80%] mx-auto md:w-full'>
+                        <Image src="/logo_1.webp" width="200" height="200" alt="" className='h-20 w-24 md:h-32 md:w-48 lg:h-40 lg:w-52' />
+                    </div>
+                    <p className='w-[80%] mx-auto text-2xl md:text-3xl lg:text-5xl text-white md:w-full lg:w-2/3 mt-7 lg:mt-24 leading-loose lg:leading-tight'>Seaya Ventures is a technology-first fund investing in outstanding and mission driven founders of European companies.</p>
                 </div>
             </section>
 
@@ -38,7 +40,7 @@ const page = () => {
                                         {/* row 1 */}
                                         <tr className='border-white'>
                                             <td className='p-1 lg:p-4'>Stage</td>
-                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>Pre-series A / Series A <br className='visible md:hidden'/>/ Series B</td>
+                                            <td className='pl-5 md:pl-36 lg:pl-56 p-1 lg:p-4'>Pre-series A / Series A <br className='visible md:hidden' />/ Series B</td>
                                         </tr>
                                         {/* row 2 */}
                                         <tr className='border-white'>
