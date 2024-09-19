@@ -20,13 +20,13 @@ const page = () => {
                 </div>
             </section>
 
-            <section className='p-4 md:p-24'>
+            <section className='p-4 md:p-24 w-[80%] mx-auto md:w-full'>
                 <p className='text-2xl lg:w-2/3 mb-5 lg:mb-20'>We are convinced that companies with a long-term mission provide better financial returns, attract top talent and are more resilient in the face of adversity. We look for impact-driven leaders with high standards seeking out both prosperity and purpose; long-term thinkers focused on responsible scaling, who are solving real problems, redefining industries, and promoting sustainable development.</p>
                 <Image src="/water.webp" width="300" height="300" alt="" className='w-full' />
             </section>
 
             <section className='bg-[#5CA5D8] text-white w-full mx-auto md:mx-0 pb-10'>
-                <div className='p-1 md:p-24'>
+                <div className='p-1 md:p-24 w-[80%] mx-auto md:w-full'>
                     <hr className='border-white mb-5 md:mb-10 w-[92%] md:w-full mx-auto mt-10 md:mt-0' />
                     <div className='flex flex-col lg:flex-row gap-5  w-[92%] md:w-full mx-auto'>
                         <h3 className='text-xl lg:text-5xl font-bold w-2/6'>Details</h3>

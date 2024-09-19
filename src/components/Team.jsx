@@ -17,8 +17,8 @@ import Image from 'next/image';
 const Team = () => {
 
     return (
-        <div className=' bg-[#8a8a8c] w-full mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto'>
-            <div className='w-[96%] md:w-10/12 mx-auto'>
+        <div className=' bg-[#8a8a8c] w-[96%] mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto'>
+            <div className='w-[80%] md:w-10/12 mx-auto'>
                 <div className='pt-10 md:pt-20'>
                     <hr className='border-black' />
                 </div>

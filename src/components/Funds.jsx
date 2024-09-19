@@ -4,7 +4,10 @@ import React from 'react';
 
 const Funds = () => {
     return (
-        <div className='w-full md:w-11/12 mx-auto '>
+        <div className='w-[80%] md:w-11/12 mx-auto '>
+            <hr className='mt-14 md:mt-32 lg:mt-40 border-gray-400 w-11/12 mx-auto md:w-full' />
+
+
             <h2 className='text-3xl md:text-5xl w-[92%] mx-auto md:w-full font-bold my-3'>Funds</h2>
             <p className='text-xl lg:text-5xl font-normal w-[92%] md:w-10/12 lg:w-3/4 mx-auto'>
                 We accelerate growth by working with founders to enhance their strategic vision, putting an international platform at their disposal:
@@ -104,7 +107,6 @@ const Funds = () => {
                 </Link>
 
             </div>
-            <hr className='mt-20 md:mt-32 lg:mt-40 border-gray-400 w-11/12 mx-auto md:w-full' />
         </div>
     );
 };
