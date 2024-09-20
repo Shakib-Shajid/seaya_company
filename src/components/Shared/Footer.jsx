@@ -53,9 +53,43 @@ const Footer = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1 text-lg flex flex-col items-center lg:flex-row ">
-                        <li><Link href="/legal-notice">Legal Notice</Link></li>
+                        <li> <Link href="/legal-notice" className="relative flex items-center group">
+                            {/* Static Text */}
+                            <span className="relative">
+                                Legal Notice
+
+                                {/* Underline that animates when hovered */}
+                                <span
+                                    className={`absolute left-0 bottom-0 w-full h-[1px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                                ></span>
+                            </span>
+                        </Link></li>
+                        <li> <Link href="/privacy-policy" className="relative flex items-center group">
+                            {/* Static Text */}
+                            <span className="relative">
+                                Privacy policy
+
+                                {/* Underline that animates when hovered */}
+                                <span
+                                    className={`absolute left-0 bottom-0 w-full h-[1px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                                ></span>
+                            </span>
+                        </Link></li>
+                        <li> <Link href="/cookie-policy" className="relative flex items-center group">
+                            {/* Static Text */}
+                            <span className="relative">
+                                Cookie policy
+
+                                {/* Underline that animates when hovered */}
+                                <span
+                                    className={`absolute left-0 bottom-0 w-full h-[1px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                                ></span>
+                            </span>
+                        </Link></li>
+
+                        {/* <li><Link href="/legal-notice">Legal Notice</Link></li>
                         <li><Link href="/privacy-policy">Privacy policy</Link></li>
-                        <li><Link href="/cookie-policy">Cookie policy</Link></li>
+                        <li><Link href="/cookie-policy">Cookie policy</Link></li> */}
 
                     </ul>
                 </div>

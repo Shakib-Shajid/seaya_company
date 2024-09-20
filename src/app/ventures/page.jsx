@@ -74,7 +74,21 @@ const page = () => {
             <section className='bg-[#EBEBEB]'>
                 <div className='md:p-10 lg:p-24 text-center'>
                     <h3 className='text-2xl md:text-3xl p-5 md:p-10'>Seaya Ventures III FCR, FCRE</h3>
-                    <p className='text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf" target="_blank">Legal Documents: KIID PRIIPS</Link></p>
+                    <p className='text-xl py-10 lg:py-0'>
+                        <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/09/KIIDPRIIPSSeayaVenturesIIIFCRFCREv20211662103243.pdf" target="_blank" className="relative group text-xl">
+                            {/* Static Text */}
+                            <span className="relative">
+                                Legal Documents: KIID PRIIPS
+
+                                {/* Underline that animates when hovered */}
+                                <span
+                                    className={`absolute left-0 bottom-0 w-full h-[0.5px] bg-black transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                                ></span>
+                            </span>
+                        </Link>
+                    </p>
+
+
                 </div>
 
             </section>

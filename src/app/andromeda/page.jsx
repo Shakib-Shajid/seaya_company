@@ -72,14 +72,14 @@ const page = () => {
             </section>
 
             <section>
-                <div className='w-[80%] mx-auto md:w-full'>
+                <div className='w-[80%] mx-auto md:w-full p-4 md:px-24 '>
 
                     <hr className="border md:w-full mt-20" />
                     <h2 className='text-3xl md:text-5xl w-full font-bold my-5'>Portfolio</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto my-10 ">
                         {/* ............................................................................ */}
                         {/* 1st card */}
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -101,7 +101,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -124,7 +124,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -146,7 +146,7 @@ const page = () => {
                         {/* 4th card */}
 
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -168,7 +168,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -190,7 +190,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -215,17 +215,17 @@ const page = () => {
 
 
             <section>
-                <div className='w-[80%] mx-auto md:w-full'>
+                <div className='w-[80%] mx-auto md:w-full px-4 md:px-24 '>
 
-                    <hr className=" border md:w-full mt-20" />
+                    <hr className=" border md:w-full mt-5 lg:mt-10" />
                     <h2 className='text-3xl md:text-5xl md:w-full font-bold my-5'>Climate track record</h2>
 
                     <p className='text-xl lg:w-2/3 mb-5 lg:mb-20'>Over the past decade, we invested in Climate Tech companies driving sustainability solutions and have seen the impact of technology in addressing the world&apos;s most pressing climate challenges. <br /><br />
                         The launch of Seaya Andromeda is a natural progression of Seaya&apos;s continued commitment to sustainability, and is built on our experience as a VC platform. With Seaya Andromeda, we are doubling down on our belief that profit and purpose can and should go hand in hand.</p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-auto my-10 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto my-10 ">
                         {/* ............................................................................ */}
                         {/* 1st card */}
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -247,7 +247,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -270,7 +270,7 @@ const page = () => {
                         {/* 3rd card */}
 
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -292,7 +292,7 @@ const page = () => {
                         {/* 4th card */}
 
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -314,7 +314,7 @@ const page = () => {
 
                         {/* 2nd card */}
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -336,7 +336,7 @@ const page = () => {
 
                         {/* 3rd card */}
 
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -356,7 +356,7 @@ const page = () => {
                         </div>
 
                         {/* 4th card */}
-                        <div className="card w-full md:w-10/12 lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
+                        <div className="card w-full lg:w-11/12 flex flex-col mx-auto lg:mx-0 relative group">
                             {/* Container for the image */}
                             <div className="relative w-full h-72 transition-shadow duration-300 hover:shadow-2xl">
                                 <Image
@@ -381,7 +381,20 @@ const page = () => {
             <section className='bg-[#EBEBEB]'>
                 <div className='md:p-10 lg:p-24 text-center'>
                     <h3 className='text-2xl md:text-3xl p-5 md:p-10'>Seaya Andromeda Sustainable Tech Fund I, FCR.</h3>
-                    <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/02/20230224_Modelo-PRIIPs_Andromeda_clase-A.pdf" target="_blank">Legal Documents: PRIIPS</Link></p>
+                    {/* <p className='text-base md:text-xl underline py-10 lg:py-0'><Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/02/20230224_Modelo-PRIIPs_Andromeda_clase-A.pdf" target="_blank">Legal Documents: PRIIPS</Link></p> */}
+                    <p className='text-xl py-10 lg:py-0'>
+                        <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/02/20230224_Modelo-PRIIPs_Andromeda_clase-A.pdf" target="_blank" className="relative group text-xl">
+                            {/* Static Text */}
+                            <span className="relative">
+                                Legal Documents: KIID PRIIPS
+
+                                {/* Underline that animates when hovered */}
+                                <span
+                                    className={`absolute left-0 bottom-0 w-full h-[0.5px] bg-black transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
+                                ></span>
+                            </span>
+                        </Link>
+                    </p>
                 </div>
 
             </section>

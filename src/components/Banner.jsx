@@ -9,7 +9,7 @@ const Banner = () => {
                 muted
                 autoPlay
                 playsInline
-                className='w-[96%] lg:w-full mx-auto h-full object-cover'
+                className='w-full mx-auto h-full object-cover'
             ></video>
            
         </div>
