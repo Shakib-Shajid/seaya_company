@@ -10,6 +10,7 @@ const page = () => {
                     loop
                     muted
                     autoPlay
+                    playsInline
                     className='w-full h-[500px] lg:h-screen object-cover'
                 ></video>
 

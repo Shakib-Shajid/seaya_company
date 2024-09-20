@@ -35,7 +35,7 @@ const page = () => {
 
 
             <hr className='border-gray-600 mt-10 md:mt-0 lg:mt-20 w-full mx-auto md:w-full mb-10' />
-            <section className='text-[#727676]   mb-20'>
+            <section className='text-[#727676]  mb-20'>
                 <div className='max-w-4xl md:max-w-xl lg:max-w-6xl mx-auto space-y-3'>
                     <h3 className='text-3xl font-bold'> Who is Responsible for the processing of your data?</h3>
                     <ul className='space-y-3 list-disc ml-7'>
