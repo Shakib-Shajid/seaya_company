@@ -60,14 +60,88 @@ const Navbar = () => {
                         <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
                             <div>
                                 <ul className='space-y-3 w-72'>
-                                    <li><Link href="/" onClick={closeModal}>Home</Link></li>
+                                    {/* <li><Link href="/" onClick={closeModal}>Home</Link></li>
                                     <li><Link href="/ventures" onClick={closeModal}>Seaya Ventures</Link></li>
                                     <li><Link href="/andromeda" onClick={closeModal}>Seaya Andromeda</Link></li>
                                     <li><Link href="/cathay-latam" onClick={closeModal}>Seaya Cathay Latam</Link></li>
                                     <li><Link href="/portfolio" onClick={closeModal}>Portfolio</Link></li>
                                     <li><Link href="/team" onClick={closeModal}>Team</Link></li>
                                     <li><Link href="/impact" onClick={closeModal}>ESG/Impact</Link></li>
-                                    <li><Link href="/contact" onClick={closeModal}>Contact</Link></li>
+                                    <li><Link href="/contact" onClick={closeModal}>Contact</Link></li> */}
+                                    {/* .................................................................................... */}
+                                    <li><Link href="/" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Home
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/ventures" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Seaya Ventures
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/andromeda" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Seaya Andromeda
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/cathay-latam" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Seaya Cathay Latam
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/portfolio" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Portfolio
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/team" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Team
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/impact" onClick={closeModal}>
+                                        <span className="relative group">
+                                            ESG/Impact
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li><Link href="/contact" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Contact
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    {/* .................................................................................... */}
                                 </ul>
                             </div>
                             <div className='mt-12 md:mt-32 leading-loose'>
@@ -78,11 +152,41 @@ const Navbar = () => {
                                             rel="link"
                                             onClick={closeModal}
                                         >
-                                            in
+                                            <span className="relative group">
+                                                in
+                                                {/* Underline that animates when hovered */}
+                                                <span
+                                                    className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                                ></span>
+                                            </span>
                                         </a></li>
-                                    <li className='text-2xl'><Link href="/news" onClick={closeModal}>News</Link></li>
-                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>Talent</Link></li>
-                                    <li className='text-2xl'><Link href="/investor" onClick={closeModal}>Investor Area</Link></li>
+                                    <li className='text-2xl'><Link href="/news" onClick={closeModal}>
+                                        <span className="relative group">
+                                            News
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li className='text-2xl'><Link href="/" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Talent
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
+                                    <li className='text-2xl'><Link href="/investor" onClick={closeModal}>
+                                        <span className="relative group">
+                                            Investor Area
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                            ></span>
+                                        </span>
+                                    </Link></li>
                                 </ul>
                             </div>
                         </div>
