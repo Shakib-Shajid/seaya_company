@@ -84,32 +84,72 @@ const page = () => {
                         <div className='lg:w-2/3'>
                             <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
                                 <Link target="_blank" href="https://www.google.com/maps/place/C.+de+Alcal%C3%A1,+54,+28014+Madrid/data=!4m2!3m1!1s0xd42289b6d799abd:0x3a64fb5ed6169dde?sa=X&ved=2ahUKEwiRsZ2-yoD6AhUSahoKHSHNBh0Q8gF6BAgTEAE">
-                                    <div className='w-80 md:w-full lg:w-96'>
-                                        <Image src="/location_1.png" width="300" height="300" alt="" className='w-full' />
-                                        <div className='space-y-2 text-lg'>
-                                            <h3 className='text-xl font-bold mt-5'>Madrid</h3>
+                                    <div className="w-80 md:w-full lg:w-96 group overflow-hidden">
+                                        <Image
+                                            src="/location_1.png"
+                                            width="300"
+                                            height="300"
+                                            alt=""
+                                            className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
+                                        />
+                                        <div className="space-y-2 text-lg">
+                                            {/* Heading */}
+                                            <div className="font-bold mt-5">
+                                                <span className="relative group text-xl">
+                                                    Madrid
+                                                    {/* Underline that animates when hovered */}
+                                                    <span
+                                                        className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                                    ></span>
+                                                </span>
+                                            </div>
+                                            {/* Address Information */}
                                             <p>Calle Alcalá, 54 – 1º dcha</p>
                                             <p>28014 Madrid</p>
                                             <p>+34 91 110 8697</p>
                                         </div>
                                     </div>
+
                                 </Link>
 
-                                <div className='w-80 md:w-full lg:w-96'>
-                                    <Image src="/location_2.png" width="300" height="300" alt="" className='w-full' />
-                                    <h3 className='text-xl font-bold mt-5'>London</h3>
+                                <div className='w-80 md:w-full lg:w-96 group overflow-hidden'>
+                                    <Image src="/location_2.png" width="300" height="300" alt="" className='h-52 object-cover w-full transition-transform duration-500 ease-in-out transform group-hover:scale-105' />
+                                    <div className='font-bold mt-5'>
+                                        <span className="relative group text-xl ">
+                                            London
+                                            {/* Underline that animates when hovered */}
+                                            <span
+                                                className={`absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left`}
+                                            ></span>
+                                        </span>
+                                    </div>
                                 </div>
 
                                 <Link target="_blank" href="https://www.google.com/maps/place/C.+Montes+Urales+424,+Lomas+-+Virreyes,+Lomas+de+Chapultepec,+Miguel+Hidalgo,+11000+Ciudad+de+M%C3%A9xico,+CDMX,+Mexico/data=!4m2!3m1!1s0x85d20149ae280b97:0xa4e0add1deaa7f0e?sa=X&ved=2ahUKEwiO_ue7kIX6AhVrgP0HHSISAgkQ8gF6BAglEAE">
-                                    <div className='w-80 md:w-full lg:w-96'>
-                                        <Image src="/location_3.png" width="300" height="300" alt="" className='w-full' />
-                                        <div className='space-y-2 text-lg'>
-                                            <h3 className='text-xl font-bold mt-5'>CDMX</h3>
+                                    <div className="w-80 md:w-full lg:w-96 group overflow-hidden">
+                                        <Image
+                                            src="/location_3.png"
+                                            width="300"
+                                            height="300"
+                                            alt=""
+                                            className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-105"
+                                        />
+                                        <div className="space-y-2 text-lg">
+                                            <div className="font-bold mt-5">
+                                                <span className="relative group text-xl">
+                                                    CDMX
+                                                    {/* Underline that animates when hovered */}
+                                                    <span
+                                                        className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"
+                                                    ></span>
+                                                </span>
+                                            </div>
                                             <p>Calle Montes Urales 424,</p>
                                             <p>Lomas de Chapultepec,</p>
                                             <p>CDMX, Mexico</p>
                                         </div>
                                     </div>
+
                                 </Link>
                             </div>
 
