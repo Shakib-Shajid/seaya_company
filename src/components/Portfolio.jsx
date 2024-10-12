@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Portfolio = () => {
     return (
-        <div className='w-[80%] md:w-11/12 mx-auto'>
+        <div className='w-[80%] md:w-11/12 mx-auto font-hankenGrotesk'>
             <hr className='mt-14 md:mt-32 lg:mt-40 border-gray-400 w-11/12 mx-auto md:w-full' />
 
             <h2 className='text-3xl md:text-5xl w-[92%] mx-auto md:w-full font-bold my-3'>Portfolio</h2>

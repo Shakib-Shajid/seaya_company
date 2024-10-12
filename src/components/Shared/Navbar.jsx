@@ -29,7 +29,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 lg:py-10 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
+        <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 font-hankenGrotesk lg:py-10 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
             <div className="flex-1">
                 {isScrolled && (
                     <Link href="/" className="btn btn-ghost rounded-none text-lg lg:text-xl border-black border-2 text-black ml-2 lg:ml-4 tracking-widest">

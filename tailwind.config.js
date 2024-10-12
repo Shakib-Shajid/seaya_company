@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        hankenGrotesk: ['var(--font-hankenGrotesk)', ...fontFamily.sans],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

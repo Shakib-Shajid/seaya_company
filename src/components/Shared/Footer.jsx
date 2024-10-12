@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" bg-[#363A3A] text-neutral-content md:p-14 ">
+        <footer className=" bg-[#363A3A] text-neutral-content md:p-14 font-hankenGrotesk">
             <div className='w-[80%] mx-auto md:w-full lg:w-10/12 footer text-xl flex flex-col lg:grid lg:grid-cols-3 gap-2'>
                 <nav className='mx-auto md:mx-0'>
                     <h6 className="text-3xl text-white my-5 mx-auto md:mx-0">Navigate</h6>
